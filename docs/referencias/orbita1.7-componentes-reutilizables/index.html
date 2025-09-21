@@ -336,6 +336,83 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#7-componentes-funcionales-construir-piezas-reutilizables" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Componentes funcionales: construir piezas reutilizables
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Componentes funcionales: construir piezas reutilizables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#que-es-atomic-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Qué es Atomic Design?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#por-que-aplicar-atomic-design-antes-de-tener-estilos-visuales" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Por qué aplicar Atomic Design antes de tener estilos visuales?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#construir-una-libreria-funcional-en-figma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Construir una librería funcional en Figma
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#herramientas-utiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Herramientas útiles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-practico-app-de-recetas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplo práctico: app de recetas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actividad-practica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actividad práctica
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -354,84 +431,57 @@
 
 <h1 id="orbita-1-disenar-para-que-funcione-introduccion"><strong>Órbita 1: Diseñar para que funcione</strong> <strong>Introducción</strong></h1>
 <p><img alt="" src="../assets/referencias.jpg" /></p>
-<h1 id="7-componentes-funcionales-atomic-design-construir-piezas-reutilizables"><strong>7. Componentes funcionales (Atomic Design): construir piezas reutilizables</strong></h1>
-<p>Una vez que tenemos claro el MVP, los flujos funcionales y los wireframes que estructuran la aplicación, es el momento de identificar qué partes se repiten y pueden convertirse en componentes reutilizables. Este es un paso crucial en cualquier sistema de diseño moderno, ya que permite crear una interfaz coherente, mantenible y escalable.</p>
-<p>Aquí es donde entra en juego la metodología <strong>Atomic Design</strong>, propuesta por Brad Frost. Esta técnica nos ayuda a organizar los elementos de la interfaz como si fueran piezas de un sistema: desde los más simples a los más complejos, con el objetivo de que puedan reutilizarse de forma lógica y eficiente.</p>
-<h2 id="que-es-exactamente-atomic-design"><strong>¿Qué es exactamente Atomic Design?</strong></h2>
-<p>Atomic Design propone una jerarquía de cinco niveles que nos permite dividir y estructurar cualquier interfaz de manera modular:</p>
+<h2 id="7-componentes-funcionales-construir-piezas-reutilizables"><strong>7. Componentes funcionales: construir piezas reutilizables</strong></h2>
+<p>Una vez tienes claro el MVP, los flujos y los wireframes, toca identificar qué partes se repiten y pueden convertirse en componentes reutilizables. Este paso es crucial en cualquier sistema de diseño moderno porque permite crear interfaces coherentes, mantenibles y escalables.</p>
+<p>Aquí entra el <strong>Atomic Design</strong> de Brad Frost. Esta metodología organiza los elementos de interfaz como piezas de un sistema: desde los más simples a los más complejos, para poder reutilizarlos de forma lógica y eficiente.</p>
+<h3 id="que-es-atomic-design"><strong>¿Qué es Atomic Design?</strong></h3>
+<p>Atomic Design propone cinco niveles para dividir y estructurar cualquier interfaz de manera modular:</p>
 <ol>
-<li>
-<p><strong>Átomos</strong>: son los elementos más básicos e indivisibles de la interfaz, como un botón, un campo de texto o una etiqueta.</p>
-</li>
-<li>
-<p><strong>Moléculas</strong>: combinaciones simples de átomos que trabajan juntas para cumplir una función. Un buen ejemplo sería un formulario de búsqueda compuesto por un input y un botón.</p>
-</li>
-<li>
-<p><strong>Organismos</strong>: conjuntos complejos y funcionales de moléculas y átomos. Por ejemplo, una cabecera con logo, menú de navegación y buscador.</p>
-</li>
-<li>
-<p><strong>Templates</strong>: estructuras de páginas con componentes distribuidos según una jerarquía definida. Sirven de base para organizar contenido.</p>
-</li>
-<li>
-<p><strong>Pages</strong>: instancias reales del diseño con contenido definitivo, que permiten verificar cómo se comporta todo en conjunto.</p>
-</li>
+<li><strong>Átomos</strong>: elementos básicos e indivisibles, como un botón, campo de texto o etiqueta.</li>
+<li><strong>Moléculas</strong>: combinaciones simples de átomos que funcionan juntos. Ejemplo: buscador (input + botón).</li>
+<li><strong>Organismos</strong>: conjuntos complejos de moléculas y átomos. Ejemplo: cabecera con logo, menú y buscador.</li>
+<li><strong>Templates</strong>: estructuras de páginas con componentes distribuidos según jerarquía definida.</li>
+<li><strong>Pages</strong>: instancias reales del diseño con contenido definitivo.</li>
 </ol>
-<p>Este enfoque no sólo aporta orden, sino que también permite detectar inconsistencias, reducir el número de elementos redundantes y facilitar la colaboración entre diseñadores y desarrolladores.</p>
-<h3 id="por-que-es-util-aplicar-atomic-design-incluso-antes-de-tener-los-estilos-visuales-definidos"><strong>¿Por qué es útil aplicar Atomic Design incluso antes de tener los estilos visuales definidos?</strong></h3>
-<p>Puede parecer extraño construir una librería de componentes sin haber definido todavía los colores, tipografías o espaciados. Sin embargo, este enfoque funcional tiene varias ventajas:</p>
+<p>Este enfoque aporta orden y permite detectar inconsistencias, reducir elementos redundantes y facilitar la colaboración entre diseñadores y desarrolladores.</p>
+<h3 id="por-que-aplicar-atomic-design-antes-de-tener-estilos-visuales"><strong>¿Por qué aplicar Atomic Design antes de tener estilos visuales?</strong></h3>
+<p>Puede parecer raro construir una librería de componentes sin haber definido colores o tipografías. Pero este enfoque funcional tiene ventajas:</p>
 <ul>
-<li>
-<p><strong>Permite iterar antes de definir estilos</strong>, centrándonos en cómo funciona la interfaz y no en cómo se ve.</p>
-</li>
-<li>
-<p><strong>Ayuda a validar interacciones y estructuras</strong> de forma rápida, sin necesidad de cerrar detalles estéticos.</p>
-</li>
-<li>
-<p><strong>Fomenta una mentalidad de diseño sistemático</strong>, que facilita el trabajo colaborativo y reduce errores futuros.</p>
-</li>
+<li><strong>Permite iterar antes de definir estilos</strong>, centrándose en cómo funciona, no en cómo se ve</li>
+<li><strong>Ayuda a validar interacciones y estructuras</strong> de forma rápida</li>
+<li><strong>Fomenta mentalidad de diseño sistemático</strong>, que facilita el trabajo colaborativo</li>
 </ul>
-<p>Más adelante, cuando se definan los estilos globales (en la siguiente órbita), bastará con aplicar esas decisiones al sistema ya creado, en lugar de rediseñar cada pantalla desde cero.</p>
+<p>Más adelante, cuando definas estilos (en la siguiente órbita), bastará aplicar esas decisiones al sistema ya creado, en lugar de rediseñar cada pantalla desde cero.</p>
 <h3 id="construir-una-libreria-funcional-en-figma"><strong>Construir una librería funcional en Figma</strong></h3>
-<p>Figma permite trabajar con componentes y variantes de forma nativa. Podemos crear, nombrar, organizar y reutilizar elementos con facilidad, agrupándolos según la jerarquía de Atomic Design. Por ejemplo, un botón puede tener varias variantes: normal, con icono, desactivado…</p>
-<p>A medida que los grupos trabajan en sus apps, pueden ir creando una página de componentes dentro de su archivo. Esta página servirá como inventario funcional y como base para el diseño visual futuro.</p>
-<p>Es importante que cada componente tenga un nombre claro, una función definida y, si es posible, una pequeña documentación de uso. Esto hace que el sistema sea comprensible para cualquiera que lo revise.</p>
-<h3 id="herramientas-y-extensiones-utiles"><strong>Herramientas y extensiones útiles</strong></h3>
-<p>Para organizar y mantener bien estructurado el sistema de componentes en Figma, existen algunas herramientas y plugins recomendables:</p>
+<p>Figma permite trabajar con componentes y variantes de forma nativa. Puedes crear, nombrar, organizar y reutilizar elementos fácilmente, agrupándolos según Atomic Design. Un botón puede tener varias variantes: normal, con icono, desactivado...</p>
+<p>Mientras trabajas en tu app, puedes ir creando una página de componentes dentro del archivo. Esta página sirve como inventario funcional y base para el diseño visual futuro.</p>
+<p>Es importante que cada componente tenga nombre claro, función definida y, si es posible, una pequeña documentación de uso.</p>
+<h3 id="herramientas-utiles"><strong>Herramientas útiles</strong></h3>
+<p>Para organizar componentes en Figma:</p>
 <ul>
-<li>
-<p><strong>Instance Finder</strong>: permite localizar todas las instancias de un componente, útil para evitar duplicidades.</p>
-</li>
-<li>
-<p><strong>Design System Organizer</strong>: ayuda a categorizar los componentes y mantener una jerarquía clara.</p>
-</li>
-<li>
-<p><strong>Themer</strong>: aunque más avanzado, permite gestionar tokens de diseño como colores o espaciados, incluso antes de definirlos.</p>
-</li>
-<li>
-<p><strong>Styler</strong>: útil para auditar estilos y preparar la transición a diseño visual.</p>
-</li>
-<li>
-<p><strong>Figma Tokens</strong>: para quienes quieran trabajar con variables desde fases tempranas del proyecto.</p>
-</li>
+<li><strong>Instance Finder</strong>: localiza todas las instancias de un componente</li>
+<li><strong>Design System Organizer</strong>: ayuda a categorizar y mantener jerarquía clara</li>
+<li><strong>Styler</strong>: útil para auditar estilos y preparar la transición a diseño visual</li>
 </ul>
-<p>Estos recursos no son obligatorios, pero pueden facilitar mucho la tarea de mantener un diseño funcional coherente.</p>
-<h2 id="ejemplo-practico-identificar-componentes-en-una-app-de-recetas"><strong>Ejemplo práctico: identificar componentes en una app de recetas</strong></h2>
-<p>Supongamos que hemos diseñado las primeras pantallas de una app de recetas. Podemos observar que hay varios elementos que se repiten: botones, campos de búsqueda, tarjetas con imagen y texto, menús flotantes…</p>
-<p>El primer paso sería crear un inventario con estos elementos, clasificarlos por nivel (átomo, molécula, organismo) y construirlos como componentes reutilizables en Figma. Por ejemplo:</p>
-<ul>
-<li><strong>Átomos</strong>: botón, campo de texto, etiqueta</li>
-<li><strong>Moléculas</strong>: buscador, tarjeta de receta</li>
-<li><strong>Organismos</strong>: cabecera, listado de recetas, menú inferior</li>
+<p>Estas herramientas no son obligatorias, pero facilitan mantener un diseño funcional coherente.</p>
+<h3 id="ejemplo-practico-app-de-recetas"><strong>Ejemplo práctico: app de recetas</strong></h3>
+<p>En las primeras pantallas de una app de recetas, observas que hay elementos que se repiten: botones, campos de búsqueda, tarjetas con imagen y texto, menús flotantes...</p>
+<p>El primer paso sería hacer un inventario con estos elementos, clasificarlos por nivel (átomo, molécula, organismo) y construirlos como componentes reutilizables en Figma:</p>
+<p><strong>Átomos</strong>: botón, campo de texto, etiqueta <strong>Moléculas</strong>: buscador, tarjeta de receta <strong>Organismos</strong>: cabecera, listado de recetas, menú inferior</p>
+<p>Estos elementos los usas en múltiples pantallas, garantizando coherencia funcional.</p>
+<h3 id="actividad-practica"><strong>Actividad práctica</strong></h3>
+<p><strong>"Construcción del sistema de componentes"</strong></p>
+<ol>
+<li>Cada persona revisa su prototipo funcional e identifica al menos cinco componentes reutilizables</li>
+<li>En una nueva página de su archivo de Figma:<ul>
+<li>Construir esos componentes y clasificarlos según Atomic Design</li>
+<li>Añadir etiquetas y descripción funcional breve</li>
+<li>Definir al menos una variante para cada uno (ej: activo/inactivo)</li>
 </ul>
-<p>Estos elementos se pueden usar en múltiples pantallas, garantizando coherencia funcional.</p>
-<h2 id="actividad-practica-en-clase-construccion-del-sistema-de-componentes"><strong>Actividad práctica en clase: “Construcción del sistema de componentes”</strong></h2>
-<p>Cada persona revisará su prototipo funcional e identificará al menos cinco componentes reutilizables. En una nueva página de su archivo de Figma:</p>
-<ul>
-<li>Construiréis esos componentes y los clasificaréris según Atomic Design.</li>
-<li>Añadiréis etiquetas y una breve descripción funcional.</li>
-<li>Definiréis al menos una variante para cada uno (por ejemplo: activo / inactivo).</li>
-</ul>
-<p>Esta actividad no requiere todavía aplicar estilo visual. Su objetivo es estructurar la interfaz funcional como un sistema reutilizable. Además, este sistema servirá de base directa para la siguiente órbita, donde sí aplicaremos colores, tipografías y guías de estilo.</p>
+</li>
+<li>Esta actividad no requiere estilo visual. Su objetivo es estructurar la interfaz funcional como sistema reutilizable</li>
+</ol>
+<p>Este sistema servirá de base directa para la siguiente órbita, donde aplicaremos colores, tipografías y guías de estilo.</p>
 
 
 
