@@ -2,121 +2,121 @@
 hide:
   - navigation
 ---
-# **Órbita 1: Diseñar para que funcione** **Introducción**
+# **Órbita 1: Diseñar para que funcione**
 
 ![](assets/referencias.jpg)
 
 ## **Introducción**
-El diseño de interfaces no consiste en hacer algo "bonito", sino en facilitar que el usuario logre sus objetivos de manera clara, rápida y sin fricciones. Esta órbita se centra en el diseño funcional: en pensar primero en tareas, flujos y estructura antes de aplicar cualquier decisión visual.
 
-La interfaz es el puente entre el usuario y el sistema. Si ese puente está mal diseñado, el usuario se pierde, se frustra o abandona. Por eso, antes de decidir colores o tipografías, debemos entender para qué sirve la interfaz, qué necesita el usuario, y cómo debe estar organizada la información.
+El diseño de interfaces no va de hacer algo "bonito". Va de que el usuario pueda hacer lo que necesita sin complicarse la vida. Esta órbita se centra en lo funcional: pensar primero en tareas, flujos y estructura antes de ponerte a elegir colores.
 
+La interfaz es el puente entre el usuario y tu sistema. Si ese puente está mal hecho, el usuario se pierde, se mosquea o se va. Por eso, antes de decidir tipografías o paletas de color, necesitas entender para qué sirve tu interfaz, qué necesita el usuario y cómo tiene que estar organizada la información.
 
-## **1. UX primero, UI después: pensar en funcionalidad**
-En el mundo del diseño web y de interfaces, es muy fácil dejarse llevar por lo visual. Muchas veces empezamos un proyecto pensando en el logo, los colores corporativos o los estilos tipográficos. Pero esta no es la forma más eficaz de construir una interfaz que realmente funcione.
+## **1\. UX primero, UI después: pensar en funcionalidad**
 
-El punto de partida siempre debe ser **la funcionalidad**: entender al usuario, identificar qué tareas necesita realizar, y diseñar una estructura que le permita lograr su objetivo sin frustración. Esto es lo que diferencia una interfaz atractiva pero inútil de una interfaz efectiva.
+En el mundo del diseño web es fácil empezar por lo visual. Muchas veces arrancamos un proyecto pensando en el logo, los colores corporativos o las tipografías que molan. Pero esta no es la forma más eficaz de construir algo que realmente funcione.
+
+El punto de partida siempre debe ser **la funcionalidad**: entender al usuario, saber qué tareas necesita hacer y diseñar una estructura que le permita conseguir su objetivo sin frustrarse. Esto es lo que separa una interfaz que está muy chula pero no sirve para nada de una que realmente funciona.
 
 ### **¿Qué es la UX y en qué se diferencia de la UI?**
-* **UX (User Experience)** es la experiencia completa que tiene una persona al interactuar con una app, web o sistema. Abarca desde la lógica de navegación hasta cómo se siente al usarla: ¿es fácil?, ¿consigue lo que busca?, ¿se siente frustrado o satisfecho?
 
-* **UI (User Interface)** es el aspecto visual de la interfaz: botones, colores, iconos, tipografía, animaciones... Es la parte “visible”, pero no debe determinar el funcionamiento, sino estar al servicio del mismo.
+**UX (User Experience)** es toda la experiencia que tiene una persona cuando usa tu app, web o sistema. Incluye desde la lógica de navegación hasta cómo se siente usándola: ¿es fácil? ¿consigue lo que busca? ¿se frustra o sale contento?
 
-Pensar primero en la UX significa **diseñar desde las tareas**, no desde los colores. Significa analizar qué necesita hacer el usuario y en qué orden, antes de decidir cómo se verá cada pantalla.
+**UI (User Interface)** es la parte visual: botones, colores, iconos, tipografía, animaciones... Es lo que se ve, pero no debe determinar cómo funciona, sino estar al servicio de la funcionalidad.
 
-### **Las leyes de UX: principios para un diseño funcional**
+Pensar primero en UX significa **diseñar desde las tareas**, no desde los colores. Significa analizar qué necesita hacer el usuario y en qué orden, antes de decidir cómo se va a ver cada pantalla.
 
-Los profesionales del diseño de experiencia de usuario trabajan apoyándose en principios basados en la psicología y el comportamiento humano. Estas **leyes de UX** nos ayudan a diseñar con más criterio. Aquí tienes algunas fundamentales:
+### **Las leyes de UX: principios para diseñar con criterio**
 
-#### ***1\. Ley de Hick***
+Los profesionales de UX trabajamos con principios basados en psicología y comportamiento humano. Estas **leyes de UX** nos ayudan a diseñar con más criterio:
+
+#### **Ley de Hick**
 
 *Cuantas más opciones tiene una persona, más tarda en decidir.*
 
-Por eso es mejor simplificar. No muestres 12 botones cuando el usuario solo necesita 3\. Un menú corto es más efectivo que uno con 15 categorías.
+Por eso es mejor simplificar. No pongas 12 botones cuando el usuario solo necesita 3\. Un menú corto funciona mejor que uno con 15 categorías.
 
-#### ***2\. Ley de Fitts***
+#### **Ley de Fitts**
 
-*El tiempo que se tarda en alcanzar un objetivo depende de su tamaño y cercanía.*
+*El tiempo que tardas en alcanzar un objetivo depende de su tamaño y cercanía.*
 
-En dispositivos móviles, los botones más usados deben ser grandes y estar al alcance del pulgar. No escondas funciones clave en esquinas lejanas.
+En móviles, los botones más usados tienen que ser grandes y estar al alcance del pulgar. No escondas funciones importantes en esquinas imposibles.
 
-#### ***3\. Ley de Jakob***
+#### **Ley de Jakob**
 
-*Las personas esperan que tu web/app funcione como las que ya conocen.*
+*Los usuarios esperan que tu web/app funcione como las que ya conocen.*
 
-Esto no es malo: aprovecha los patrones familiares. Si un icono de carrito siempre está arriba a la derecha, no lo pongas en el pie de página sin motivo.
+Esto no es malo: aprovecha los patrones familiares. Si el icono de carrito siempre está arriba a la derecha, no lo pongas en el pie de página sin un buen motivo.
 
-### ***4\. Ley de Tesler (Ley de la complejidad)***
+#### **Ley de Tesler**
 
 *Cada sistema tiene una complejidad mínima. Si no la gestiona el diseñador, la asume el usuario.*
 
-Simplificar no es eliminar opciones, sino **organizar bien la complejidad**: agrupando, mostrando por pasos o usando asistentes.
+Simplificar no es quitar opciones, sino **organizar bien la complejidad**: agrupando, mostrando por pasos o usando asistentes.
 
-### ***5\. Ley de Miller***
+#### **Ley de Miller**
 
 *El cerebro humano sólo puede procesar entre 5 y 9 elementos a la vez.*
 
-Si en una pantalla hay más de 9 cosas “gritando”, el usuario se bloquea. Usa jerarquía, espacios, agrupaciones y orden lógico.
+Si en una pantalla hay más de 9 cosas "gritando", el usuario se bloquea. Usa jerarquía, espacios, agrupaciones y orden lógico.
 
-### 
+### **Ejemplo práctico: app de comida a domicilio**
 
-## **Ejemplo práctico: app de comida a domicilio**
+Imaginemos que diseñas una app de comida a domicilio como Glovo. El objetivo del usuario está claro: pedir comida rápido y sin líos. Pero **¿cómo traduces eso a pantallas funcionales?**
 
-Imaginemos que vamos a diseñar una aplicación de comida a domicilio similar a Glovo o Just Eat. En este tipo de apps, el objetivo del usuario es claro: pedir comida de forma rápida, cómoda y segura. Pero **¿cómo se traduce eso en pantallas funcionales?** Para hacerlo bien, necesitamos pensar en términos de experiencia de usuario y responder a una serie de preguntas clave.
+#### **¿Qué es lo primero que necesitas hacer?**
 
-#### **¿Qué es lo primero que necesita hacer el usuario al entrar?**
+Probablemente ver **qué restaurantes tiene cerca**. Por tanto, lo primero debería ser meter su dirección o permitir geolocalización. Si ya la tienes guardada, puede ir directo al listado.
 
-Lo más probable es que quiera **ver qué restaurantes tiene disponibles cerca**. Por tanto, lo primero debería ser introducir su dirección o permitir la geolocalización. Si esa información ya está guardada, puede pasar directamente al listado de restaurantes.
+**Solución**: pantalla inicial con buscador de dirección o botón de "Usar mi ubicación".
 
-**Funcionalidad recomendada**: una pantalla inicial con buscador de dirección o botón de “Usar mi ubicación”.
+#### **¿Debe registrarse o puede buscar?**
 
-#### **¿Debe buscar un restaurante, o iniciar sesión?**
+No debería ser obligatorio registrarse para **navegar y ver opciones**. Forzar el registro en el primer paso genera fricción. Es mejor dejarlo para el momento del pedido.
 
-No debería ser obligatorio iniciar sesión para **navegar y explorar opciones**. Obligar al registro en el primer paso genera fricción. Es más recomendable dejarlo para el momento del pedido.
+**Solución**: navegación libre; registro solo al confirmar pedido.
 
-**Funcionalidad recomendada**: navegación libre por el catálogo; la sesión solo se solicita al confirmar el pedido.
+#### **¿Cómo muestras la info del producto?**
 
-#### **¿Cómo se muestra la información del producto?**
+Cuando entra en un restaurante, necesita ver **el menú organizado**: nombre, descripción, precio, foto opcional y botón para añadir. Los platos deben estar en categorías (entrantes, principales, postres...).
 
-Cuando un usuario entra en un restaurante, lo que necesita ver es **el menú clasificado**, con nombre, descripción, precio, imagen opcional y un botón para añadir. No conviene mostrar demasiada información en bloque. Los platos deben estar organizados en categorías (entrantes, principales, postres...).
+**Solución**: menú estructurado con listas claras y botón de añadir directo.
 
-**Funcionalidad recomendada**: menú estructurado con listas claras, elementos clicables y opción de añadir al carrito directamente.
+#### **¿Cómo simplificar el pago?**
 
-#### **¿Cómo se simplifica el proceso de pago?**
+El pago debe requerir **el menor número de pasos posible**. Idealmente una pantalla donde revisar el pedido, añadir dirección si falta, elegir método de pago y confirmar.
 
-El pago debe requerir **el menor número posible de pasos**. Idealmente, se resume en una pantalla clara donde se pueda revisar el pedido, añadir dirección si no estaba guardada, elegir método de pago y confirmar.
+**Solución**: pantalla de resumen con totales, dirección editable y opciones de pago rápidas.
 
-**Funcionalidad recomendada**: pantalla de revisión con totales, dirección editable, opciones de pago guardadas o rápidas.
+#### **¿Dónde consultar el pedido actual?**
 
-#### **¿Dónde puede consultar su pedido actual?**
+Debe tener acceso rápido al estado de su pedido. Lo habitual es un **icono de carrito fijo** (arriba) que lleve directo al resumen.
 
-El usuario debe tener acceso rápido al estado de su pedido. Lo más habitual es incluir un **icono fijo de carrito** (en la parte superior) que lleve directamente a la pantalla del pedido.
+**Solución**: icono de carrito visible siempre, con número de productos.
 
-**Funcionalidad recomendada**: icono de carrito visible en todo momento, con número de productos y acceso directo al resumen.
+Este análisis funcional es lo que permite construir una **experiencia fluida, centrada en las tareas reales**. El orden de los pasos, la visibilidad de la información y la simplicidad de las acciones definen una buena UX.
 
-Este tipo de análisis funcional es lo que permite construir una **experiencia de usuario fluida, centrada en las tareas reales del usuario**. El orden de los pasos, la visibilidad de la información y la simplicidad de las acciones son aspectos que definen una buena UX.
+Una vez tengas claro qué pantallas necesita, qué datos debe ver y cómo fluye entre ellas... **entonces** te preocupas por los colores.
 
-Una vez esté claro qué pantallas necesita el usuario, qué datos debe ver y cómo fluye la navegación entre ellas… **entonces** nos preocuparemos por los colores y la tipografía.
+### **Enlaces de referencia**
 
-En resumen, **el diseño funcional es la base de todo buen diseño de interfaz**. Una buena experiencia de usuario es lo que hace que una app sea útil, clara y agradable. La interfaz visual debe servir a esa experiencia, no sustituirla ni taparla.
+* [Laws of UX – Colección completa con ejemplos](https://lawsofux.com/)
+* [UX Planet – Diferencia entre UX y UI](https://uxplanet.org/what-is-ui-vs-ux-design-and-the-difference-d9113f6612de)
+* [Nielsen Norman Group – What is User Experience?](https://www.nngroup.com/articles/definition-user-experience/)
+* [12 leyes UX con ejemplos prácticos](https://www.asilodigital.com/leyes-ux-ejemplos-practicos/)
 
-## **Enlaces de referencia**
+### **Actividad práctica**
 
-* [Laws of UX – Colección completa con ejemplos visuales](https://lawsofux.com/)
-* [NNGroup – What is User Experience?](https://www.nngroup.com/articles/definition-user-experience/)
-* [Leyes UX con ejemplos](https://medium.com/startups-es/las-leyes-de-ux-con-casos-pr%C3%A1cticos-b838ddf7ff9b)
+**"Analizar para tu proyecto"**
 
-## **Actividad práctica en clase**
+Esta actividad conecta directamente con la **Fase 1** de tu proyecto intermodular:
 
-**Título**: “Analizar y repensar la funcionalidad”
+1. Elegir una app que resuelva un problema similar al que abordaréis en vuestro proyecto
+2. Responder por escrito:
+    * ¿Cuál es el objetivo principal del usuario en esta app?
+    * ¿Qué pasos debe dar para conseguirlo?
+    * ¿Qué elementos visuales lo ayudan o lo estorban?
+    * ¿Qué decisiones de diseño podrían mejorarse?
+3. **Para el proyecto**: Documentar qué funciona bien y qué genera fricción para aplicarlo en vuestra investigación inicial
 
-1. Nos dividimos en pequeños grupos.
-2. Cada grupo elegirá una app popular (puede ser Instagram, Amazon, Glovo, Duolingo...).
-3. Debéis responder por escrito:
-  * ¿Cuál es el objetivo principal del usuario?
-  * ¿Cuáles son los pasos que debe dar para lograrlo?
-  * ¿Qué elementos visuales lo ayudan o lo entorpecen?
-  * ¿Qué decisión de diseño visual no tiene sentido desde el punto de vista funcional?
-4. Después, cada grupo debe **proponer una mejora funcional** (no estética) que haría más fácil o clara la experiencia del usuario.
-
-Esta actividad la completaremos con una puesta en común o una presentación breve por grupo.
+Esta actividad os preparará para el análisis comparativo que necesitaréis en la Fase 1 del proyecto.

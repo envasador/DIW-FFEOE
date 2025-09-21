@@ -6,96 +6,86 @@ hide:
 
 ![](assets/referencias.jpg)
 
-# **6\. MVP: centrarse en lo esencial**
+## **6\. MVP: centrarse en lo esencial**
 
-Una vez que hemos definido la arquitectura de la información, diseñado los wireframes y creado un prototipo navegable que represente el flujo funcional de nuestra aplicación, es el momento de tomar una decisión estratégica: **¿qué funcionalidades deben implementarse primero?**
+Una vez tienes clara la arquitectura, los wireframes y un prototipo navegable, toca tomar una decisión estratégica: **¿qué funcionalidades implementas primero?**
 
-En esta etapa, entra en juego el concepto de **MVP**, siglas de *Minimum Viable Product*, que podríamos traducir como “Producto Mínimo Viable”. Aunque proviene del mundo del desarrollo ágil y las startups, este concepto es perfectamente aplicable a proyectos educativos y de diseño, ya que nos obliga a **priorizar lo funcional frente a lo estético** y lo imprescindible frente a lo accesorio.
+Aquí entra el **MVP** (*Minimum Viable Product*). Aunque viene del mundo startup, este concepto es perfecto para proyectos educativos porque te obliga a **priorizar lo funcional frente a lo estético** y lo imprescindible frente a lo molón.
 
-## **¿Qué es exactamente un MVP?**
+### **¿Qué es un MVP?**
 
-Un MVP es una versión funcional de una aplicación que incluye **solo las funcionalidades mínimas necesarias para que el usuario pueda completar su objetivo principal**. No se trata de un prototipo estático ni de una maqueta visual, sino de una simulación funcional que, aun con diseño básico, permite al usuario realizar una tarea significativa.
+Un MVP es una versión funcional que incluye **solo las funcionalidades mínimas para que el usuario pueda completar su objetivo principal**. No es un prototipo estático ni una maqueta visual, sino una simulación funcional que, aunque con diseño básico, permite hacer una tarea significativa.
 
-El propósito del MVP no es demostrar lo bonito que puede ser el producto final, sino **validar si la solución propuesta tiene sentido, si es comprensible y si realmente resuelve el problema del usuario**.
+El propósito no es demostrar lo bonito que puede quedar, sino **validar si la solución tiene sentido, se entiende y resuelve el problema del usuario**.
 
-En contextos reales, lanzar un MVP permite recoger feedback temprano, corregir errores y evitar perder tiempo desarrollando funcionalidades que el usuario tal vez no necesita. En nuestro caso, nos sirve para comprobar si el diseño funcional que hemos planificado es claro, lógico y eficiente.
+En el mundo real, lanzar un MVP permite recoger feedback temprano y evitar perder tiempo desarrollando funcionalidades que igual no necesita nadie. En nuestro caso, sirve para comprobar si el diseño funcional que has planificado es claro y eficiente.
 
-## **¿Por qué es tan importante en el diseño funcional?**
+### **¿Por qué es tan importante?**
 
-El MVP es una herramienta poderosa para enfocar el diseño desde la funcionalidad. Su valor reside en varios aspectos clave:
+* **Evita sobrecargar** el diseño inicial con funcionalidades que pueden esperar
+* **Permite validar decisiones funcionales** sin depender del diseño visual definitivo
+* **Fomenta la iteración** basada en pruebas reales, no en suposiciones
+* **Ahorra tiempo y recursos**, especialmente útil en proyectos con plazos ajustados
 
-* **Evita sobrecargar el diseño y desarrollo inicial** con funcionalidades que pueden esperar.
-* **Permite validar decisiones funcionales** sin depender aún de un diseño visual definitivo.
-* **Fomenta la iteración** basada en pruebas reales y no en suposiciones.
-* **Ahorra tiempo y recursos**, algo especialmente útil en proyectos educativos con plazos y recursos limitados.
+Un buen MVP no es una versión "recortada". Es una **versión estratégica** pensada para cumplir el objetivo principal con la mayor claridad posible.
 
-Un buen MVP no es una versión “recortada” de la app final. Es una **versión estratégica**, pensada para cumplir el objetivo principal del usuario con la mayor claridad posible.
+### **¿Cómo defines un MVP?**
 
-## **¿Cómo definimos un MVP?**
+La clave es **tener claridad sobre qué quiere lograr el usuario y qué necesita como mínimo para lograrlo**:
 
-La clave para definir un MVP es **tener claridad sobre qué quiere lograr el usuario y qué necesita como mínimo para lograrlo**. Esto se puede abordar en varias fases:
+1. **Identificar el objetivo principal**: ¿qué tarea quiere hacer el usuario? ¿cuál es el núcleo de la experiencia?
 
-1. **Identificar el objetivo principal del usuario**  
-   Preguntarse: ¿Qué tarea quiere realizar el usuario? ¿Cuál es el núcleo de la experiencia?
+2. **Dibujar el flujo mínimo**: ¿qué pasos necesita desde el inicio hasta lograr su objetivo? Eliminar todo lo que no sea imprescindible.
 
-2. **Dibujar el flujo mínimo funcional**  
-   ¿Qué pasos necesita seguir el usuario, desde el inicio hasta lograr su objetivo? Eliminar todo lo que no sea imprescindible.
+3. **Filtrar funciones secundarias**: distinguir entre lo esencial (que va en el MVP) y lo accesorio (que puede añadirse después).
 
-3. **Filtrar funciones secundarias**  
-   Hacer una distinción clara entre lo esencial (que sí entra en el MVP) y lo accesorio (que puede añadirse más adelante).
+4. **Validar con usuarios**: comprobar si se entiende, funciona y permite completar la tarea sin bloqueos.
 
-4. **Validar el flujo con el usuario o con otros grupos**  
-   Comprobar si se entiende, si funciona y si permite completar la tarea sin bloqueos.
+### **Ejemplo práctico: app de recetas**
 
-## **Ejemplo práctico: app de recetas**
+**Objetivo principal**: encontrar una receta y leerla con claridad.
 
-Imaginemos que estamos diseñando una app de recetas.
+**MVP**:
 
-**Objetivo principal del usuario**: encontrar una receta y leerla con claridad.
+* Pantalla con buscador
+* Listado de resultados
+* Ficha de receta con ingredientes y pasos
 
-**MVP mínimo**:
+**Lo que NO entra en el MVP**:
 
-* Pantalla con buscador de recetas.
-* Listado de resultados.
-* Ficha de receta con ingredientes y pasos.
+* Registro de usuario
+* Subir recetas propias
+* Guardar favoritas
+* Valoraciones o comentarios
 
-**Lo que no entra en el MVP**:
+Aunque estas funciones serán útiles después, no son necesarias para que el usuario logre su objetivo principal.
 
-* Registro de usuario.
-* Subida de recetas.
-* Guardar favoritas.
-* Valoraciones o comentarios.
+### **¿Qué entregas como MVP?**
 
-Aunque estas funciones serán útiles más adelante, no son necesarias para que el usuario logre su objetivo principal en esta primera versión.
+En el proyecto práctico necesitas:
 
-## **¿Qué se entrega como MVP en esta órbita?**
+* **Mapa del flujo MVP** en Miro, Figma o papel digitalizado. Debe mostrar claramente los pasos del usuario.
+* **Tabla de funcionalidades** especificando qué entra en el MVP y qué se pospone, con justificación breve de las decisiones.
+* **Prototipo navegable en Figma** del MVP. Mínimo **tres pantallas funcionales enlazadas** que permitan simular la experiencia del usuario haciendo su tarea principal.
 
-En el proyecto práctico asociado a esta órbita, se pide al alumnado que construya y documente su MVP a través de los siguientes elementos:
+### **Recursos útiles**
 
-* **Mapa del flujo MVP**, representado en Miro, Figma o incluso en papel digitalizado. Debe mostrar claramente los pasos que sigue el usuario.
+* [UX Collective – What is an MVP](https://uxdesign.cc/minimum-viable-product-mvp-definition-and-importance-550502f05c7c)
+* [NNGroup – MVP: Minimum Viable Products](https://www.nngroup.com/articles/minimum-viable-products/)
 
-* **Tabla de funcionalidades**, donde se especifique qué entra en el MVP y qué se pospone para futuras versiones. Esta tabla debe ir acompañada de una breve justificación de las decisiones tomadas.
+### **Actividad práctica**
 
-* **Prototipo navegable en Figma** del MVP. Debe incluir como mínimo **tres pantallas funcionales enlazadas**, que permitan simular la experiencia del usuario realizando su tarea principal.
+**"Define tu MVP del proyecto"**
 
-## **Recursos recomendados para ampliar**
+Esta actividad ejecuta la **Fase 5** del proyecto intermodular:
 
+1. Cada persona parte del prototipo navegable creado anteriormente
+2. **Decisión estratégica**: Separar funcionalidades esenciales de las que pueden esperar
+3. Crear tabla con justificación:
+   * Funcionalidades dentro del MVP y por qué son críticas
+   * Funcionalidades fuera del MVP y por qué pueden posponerse
+   * Roadmap básico para versiones futuras
+4. **Actualizar prototipo**: Crear versión "v1.0" que refleje únicamente las funcionalidades MVP
+5. **Para el proyecto**: Esta definición será directamente vuestra entrega de Fase 5 y será la base para unirlo con DWES y DWEC
 
-## **Actividad práctica en clase**
-
-**Título**: *“Priorizar para construir”*
-
-**Objetivo**: Aprender a definir el MVP de una aplicación y justificarlo desde la funcionalidad.
-
-**Desarrollo**:
-
-1. Cada persona parte de su mapa de navegación y wireframes previos.
-2. Identificaréis el objetivo principal del usuario en su app.
-3. Elaboraréis una tabla que diferencie:
-  * Funcionalidades esenciales (incluidas en el MVP)
-  * Funcionalidades complementarias (para versiones futuras)
-4. Representaréis el flujo MVP en una herramienta de su elección.
-5. Presentaréis el flujo y la tabla, justificando qué entra y por qué.
-
-Esta actividad refuerza la idea de que el diseño no debe nacer desde la ambición estética o la acumulación de ideas, sino desde una estrategia funcional clara y enfocada en el usuario.
-
+**Criterio clave**: Preguntaos qué es lo mínimo que necesita vuestro usuario para resolver su problema principal. Si vuestra app de gestión de gastos no puede registrar gastos básicos, no funciona. Las gráficas avanzadas pueden esperar.
