@@ -336,6 +336,125 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#3-arquitectura-de-informacion-ordenar-para-entender" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Arquitectura de información: ordenar para entender
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Arquitectura de información: ordenar para entender">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#que-es-la-arquitectura-de-informacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Qué es la arquitectura de información?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-clave-de-la-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elementos clave de la IA
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Elementos clave de la IA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapa-de-navegacion-sitemap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapa de navegación (sitemap)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agrupacion-por-categorias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agrupación por categorías
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#breadcrumbs-migas-de-pan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Breadcrumbs (migas de pan)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#menus-y-navegacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Menús y navegación
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#principios-de-dan-brown-para-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principios de Dan Brown para IA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-practico-app-de-gestion-de-tareas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplo práctico: app de gestión de tareas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-utiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos útiles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actividad-practica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actividad práctica
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -354,59 +473,68 @@
 
 <h1 id="orbita-1-disenar-para-que-funcione-introduccion"><strong>Órbita 1: Diseñar para que funcione</strong> <strong>Introducción</strong></h1>
 <p><img alt="" src="../assets/referencias.jpg" /></p>
-<h1 id="2-patrones-y-antipatrones-en-el-diseno-de-interfaces"><strong>2. Patrones y antipatrones en el diseño de interfaces</strong></h1>
-<p>Cuando diseñamos interfaces, no empezamos desde cero. Existen soluciones que ya han demostrado funcionar bien porque <strong>los usuarios las reconocen y entienden</strong> con facilidad. A esas soluciones las llamamos <strong>patrones de diseño</strong>. Un patrón es una estructura o mecanismo que se repite en múltiples sistemas porque ha probado ser eficaz y comprensible.</p>
-<p>Por el contrario, a las malas soluciones —aquellas que generan confusión, dificultan la interacción o rompen expectativas— las llamamos <strong>antipatrones</strong>. Detectarlos y evitarlos es tan importante como aplicar los patrones correctos.</p>
-<h2 id="que-es-un-patron-de-diseno"><strong>¿Qué es un patrón de diseño?</strong></h2>
-<p>Un patrón de diseño es una solución probada a un problema común de interacción. No se trata de copiar diseños visuales, sino de identificar <strong>estructuras funcionales que los usuarios ya conocen</strong> y que permiten lograr tareas de forma clara y rápida.</p>
-<p>Por ejemplo, cuando entras en una tienda online y ves un carrito en la esquina superior derecha, sabes automáticamente que ahí puedes consultar tus productos. Cuando ves una lupa, sabes que es para buscar. Estos elementos son familiares porque <strong>responden a convenciones</strong> que todos hemos aprendido usando cientos de webs y apps.</p>
-<p>Utilizar patrones <strong>no es falta de originalidad</strong>: es una forma de respetar el tiempo, la atención y las expectativas del usuario.</p>
-<h3 id="algunos-patrones-frecuentes"><strong><em>Algunos patrones frecuentes:</em></strong></h3>
+<h2 id="3-arquitectura-de-informacion-ordenar-para-entender"><strong>3. Arquitectura de información: ordenar para entender</strong></h2>
+<p>Cuando alguien entra en tu web o app, no espera tener que explorar a ciegas. Necesita encontrar lo que busca rápido y saber dónde está en todo momento. Para que esto sea posible, el contenido debe estar bien estructurado. Esa estructura lógica es la <strong>arquitectura de información (IA)</strong>.</p>
+<p>Diseñar una interfaz no es sólo decidir cómo se ve una pantalla, sino <strong>cómo se relacionan las pantallas entre sí</strong>, cómo se agrupa el contenido y qué rutas puede seguir el usuario.</p>
+<h3 id="que-es-la-arquitectura-de-informacion"><strong>¿Qué es la arquitectura de información?</strong></h3>
+<p>La arquitectura de información es <strong>organizar, etiquetar y jerarquizar contenidos</strong> para que sean fáciles de usar y entender. Se aplica a webs, apps e incluso sistemas físicos como museos.</p>
+<p>En diseño digital, la IA responde preguntas como:</p>
 <ul>
-<li>Menú de navegación fijo en la parte superior</li>
-<li>Icono de hamburguesa para desplegar el menú en móvil</li>
-<li>Carrito de compra visible con número de artículos</li>
-<li>Cards o tarjetas con información agrupada (producto, noticia, perfil…)</li>
-<li>Botón de acción principal destacado (como el botón azul de “publicar” en redes)</li>
-<li>Sistema de pasos progresivos (checkout, formularios…)</li>
+<li>¿Cuántas secciones principales hay?</li>
+<li>¿Qué subsecciones dependen de cada una?</li>
+<li>¿Dónde colocas ciertas funcionalidades?</li>
+<li>¿Qué estructura de navegación es más clara?</li>
 </ul>
-<p>Estos patrones no son normas cerradas, pero <strong>ayudan a construir una experiencia intuitiva</strong>.</p>
-<h2 id="que-es-un-antipatron"><strong>¿Qué es un antipatrón?</strong></h2>
-<p>Un antipatrón es una solución mal aplicada o inadecuada que provoca errores, malentendidos o fricciones en la experiencia del usuario. A menudo surgen por intentar ser “demasiado creativos” sin pensar en las consecuencias.</p>
-<p>Los antipatrones <strong>rompen las expectativas del usuario</strong>, hacen que tenga que “pensar demasiado” o provocan errores evitables.</p>
-<h3 id="algunos-ejemplos-de-antipatrones-comunes"><strong><em>Algunos ejemplos de antipatrones comunes:</em></strong></h3>
-<ul>
-<li>Usar solo placeholders sin etiquetas en los formularios: si desaparecen al escribir, el usuario olvida qué tenía que poner.</li>
-<li>Botones que parecen texto y no se distinguen como clicables.</li>
-<li>Formularios con errores ocultos o sin mensajes de validación claros.</li>
-<li>Menús ocultos sin pistas visuales: el usuario no sabe cómo navegar.</li>
-<li>Campos obligatorios que no están marcados como tales.</li>
-<li>Cambios bruscos de diseño o comportamiento entre pantallas similares.</li>
-</ul>
-<h2 id="como-detectar-y-aplicar-patrones-de-forma-consciente"><strong>¿Cómo detectar y aplicar patrones de forma consciente?</strong></h2>
-<p>Aplicar patrones no significa copiar ciegamente otros productos. Significa <strong>entender qué quiere hacer el usuario</strong> y cuál es la forma más clara de ayudarle a hacerlo. Un buen diseñador es capaz de <strong>adaptar patrones</strong> al contexto concreto de su app.</p>
-<p>De la misma forma, evitar antipatrones exige observar críticamente otros productos, probar las soluciones propias con usuarios reales y <strong>cuestionar si algo realmente funciona</strong> o solo “parece bonito”.</p>
-<h2 id="recursos-de-referencia"><strong>Recursos de referencia</strong></h2>
-<p>Si quieres explorar colecciones reales de patrones y estudiar cómo se aplican en apps y webs actuales, te recomiendo estos sitios:</p>
-<ul>
-<li><a href="https://ui-patterns.com/">UI Patterns</a>: recopilación de patrones con explicación de cuándo usarlos.</li>
-<li><a href="https://mobbin.com/">Mobbin</a>: biblioteca visual con miles de capturas de apps reales clasificadas por componentes.</li>
-<li><a href="https://pageflows.com/">PageFlows</a>: vídeos reales de flujos de usuario dentro de apps conocidas.</li>
-<li><a href="https://pttrns.com/">Pttrns</a>: ejemplos de interfaces móviles organizadas por patrones.</li>
-<li><a href="https://goodui.org/">GoodUI</a>: colección de ideas de interfaz que han funcionado bien en tests reales.</li>
-</ul>
-<h2 id="actividad-practica-en-clase"><strong>Actividad práctica en clase</strong></h2>
-<p><strong>Título</strong>: “Caza de patrones y antipatrones”</p>
+<p>Una buena IA <strong>no se nota, pero una mala se sufre</strong>: el usuario se pierde, no encuentra lo que busca o repite pasos innecesarios.</p>
+<h3 id="elementos-clave-de-la-ia"><strong>Elementos clave de la IA</strong></h3>
+<h4 id="mapa-de-navegacion-sitemap"><strong>Mapa de navegación (sitemap)</strong></h4>
+<p>Esquema que muestra cómo se relacionan todas las pantallas. Permite ver la jerarquía de un vistazo. Lo puedes hacer en Figma, Miro o hasta en papel.</p>
+<h4 id="agrupacion-por-categorias"><strong>Agrupación por categorías</strong></h4>
+<p>El contenido debe estar en bloques coherentes. En una app de viajes: "vuelos", "hoteles", "actividades", "mi cuenta". Si las categorías no están claras, el usuario se confunde.</p>
+<h4 id="breadcrumbs-migas-de-pan"><strong>Breadcrumbs (migas de pan)</strong></h4>
+<p>Muestran al usuario dónde está exactamente. Ejemplo: <em>Inicio &gt; Productos &gt; Electrónica &gt; Portátiles</em>.</p>
+<h4 id="menus-y-navegacion"><strong>Menús y navegación</strong></h4>
+<p>La IA también define cómo se accede a cada sección: ¿menú lateral? ¿iconos abajo? ¿pestañas arriba?</p>
+<h3 id="principios-de-dan-brown-para-ia"><strong>Principios de Dan Brown para IA</strong></h3>
 <ol>
-<li>Vamos a revisitar <a href="https://userinyerface.com/">User Inyerface</a>, una web intencionadamente mal diseñada cómo ya concéis.</li>
-<li>En parejas o grupos, debéis identificar al menos <strong>tres antipatrones</strong> que dificultan la interacción.</li>
-<li>Por cada antipatrón encontrado, debéis explicar:</li>
-<li>Qué problema genera.</li>
-<li>Por qué rompe con las expectativas del usuario.</li>
-<li>Qué patrón correcto se podría aplicar para resolverlo.</li>
-<li>Como complemento, podéis buscar <strong>dos patrones positivos</strong> en una app real que os guste (Spotify, TikTok, Airbnb, etc.) y explicar por qué funcionan.</li>
+<li><strong>Objetividad</strong>: diseñar para el usuario, no para ti</li>
+<li><strong>Organización</strong>: agrupar por lógica, no por estética</li>
+<li><strong>Navegabilidad</strong>: el usuario siempre debe saber dónde está y cómo volver</li>
+<li><strong>Contexto</strong>: cada sección debe tener sentido por sí misma</li>
+<li><strong>Trazabilidad</strong>: permitir seguir el rastro de la navegación</li>
+<li><strong>Consistencia</strong>: usar la misma estructura y lenguaje en todo el sistema</li>
+<li><strong>Economía</strong>: no abrumar con opciones innecesarias</li>
 </ol>
-<p>Esta actividad nos permite desarrollar el pensamiento crítico y aplicar conceptos de forma práctica. Cerraremos la actividad con una puesta en común o una galería de ejemplos comentados ahora en clase. (dependiendo del tiempo que tengamos).</p>
+<h3 id="ejemplo-practico-app-de-gestion-de-tareas"><strong>Ejemplo práctico: app de gestión de tareas</strong></h3>
+<p>App que permite crear tareas, organizarlas por proyectos y hacer seguimiento:</p>
+<ul>
+<li>Secciones principales: "Inicio", "Proyectos", "Tareas", "Calendario", "Cuenta"</li>
+<li>Dentro de "Proyectos": lista de proyectos → al entrar en uno, sus tareas</li>
+<li>Navegación: menú inferior con iconos + botón flotante para crear tareas</li>
+<li>El usuario debe ver claramente en qué proyecto está y poder volver sin perderse</li>
+</ul>
+<p>Diseñar esta estructura antes de hacer wireframes evita improvisaciones y da coherencia al producto.</p>
+<h3 id="recursos-utiles"><strong>Recursos útiles</strong></h3>
+<ul>
+<li><a href="https://www.nngroup.com/articles/information-architecture-basics/">Information Architecture Basics (NNGroup)</a></li>
+<li><a href="https://boxesandarrows.com/seven-structural-principles-of-information-architecture/">Dan Brown – Seven principles of IA</a></li>
+<li><a href="https://miro.com/templates/">Plantillas de Miro para IA</a>: mapas de navegación, árboles de contenido</li>
+</ul>
+<h3 id="actividad-practica"><strong>Actividad práctica</strong></h3>
+<p><strong>"Arquitectura para tu proyecto"</strong></p>
+<p>Esta actividad es preparatoria directa para la <strong>Fase 2</strong> del proyecto:</p>
+<ol>
+<li>Cada persona trabaja en la temática elegida para su proyecto intermodular</li>
+<li>Crear un mapa de navegación preliminar que incluya:<ul>
+<li>Secciones principales para vuestra problemática específica</li>
+<li>Subpantallas y funcionalidades que creéis necesarias</li>
+<li>Flujo principal que seguirá vuestro usuario objetivo</li>
+</ul>
+</li>
+<li>Hacerlo en papel, Figma o Miro.</li>
+<li><strong>Conectar con el proyecto</strong>: Esta arquitectura será la base para la entrega de la Fase 2</li>
+</ol>
+<p><strong>Nota importante</strong>: No busquéis hacer algo original en esta fase. Buscad resolver el problema de forma clara usando patrones conocidos. La originalidad viene de resolver bien las cosas, no de inventar navegaciones complicadas.</p>
 
 
 
