@@ -36,8 +36,6 @@ Elige **una problemática real**. Tiene que ser algo que realmente usarías. Si 
 * [Fase 1: Entender el problema real](proyecto-disenar-para-que-funcione-fase-1.md)
 
 
-
-
 ---
 
 ## **Resultados de Aprendizaje y Criterios de Evaluación**
