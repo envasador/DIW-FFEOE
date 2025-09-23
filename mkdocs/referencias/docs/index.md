@@ -14,8 +14,8 @@ El módulo se organiza en las siguientes unidades, que se actualizarán a medida
 
 * [Órbita 1: Diseñar para que funcione](orbita1.1-disenar-para-que-funcione.md)
     * [1.1 UX primero, UI después](orbita1.1-disenar-para-que-funcione.md)
-    * [1.2 Arquitectura de la información](orbita1.3-arquitectura-de-la-informacion.md)
-    * [1.3 Patrones y Antipatrones](orbita1.2-patrones-y-antipatrones.md)
+    * [1.2 Patrones y Antipatrones](orbita1.2-patrones-y-antipatrones.md)
+    * [1.3 Arquitectura de la información](orbita1.3-arquitectura-de-la-informacion.md)
     * [1.4 Wireframes](orbita1.4-wireframes.md)
     * [1.5 Prototipado](orbita1.5-prototipado.md)
     * [1.6 MVP: Centrarse en lo esencial](orbita1.6-MVP-centrarse-en-lo-esencial.md)
