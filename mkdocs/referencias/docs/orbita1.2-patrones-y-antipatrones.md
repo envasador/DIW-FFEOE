@@ -69,9 +69,9 @@ Esta actividad conecta con las **Fases 1 y 2** de vuestro proyecto:
 1. Buscar **dos apps que resuelvan problemas similares** al de vuestro proyecto intermodular
 2. En parejas, identificar **tres patrones útiles** y **dos antipatrones** a evitar
 3. Para cada patrón documentado:
-   * Cómo ayuda al usuario a completar su tarea principal
-   * Si es aplicable a vuestro proyecto y por qué
-   * Qué adaptación necesitaría para vuestro contexto específico
+      * Cómo ayuda al usuario a completar su tarea principal
+      * Si es aplicable a vuestro proyecto y por qué
+      * Qué adaptación necesitaría para vuestro contexto específico
 4. **Para el proyecto**: Esta investigación formará parte del análisis comparativo de la Fase 1
 
 Como complemento, podéis volver a probar [User Inyerface](https://userinyerface.com/) (qué ya vimos el primer día) para experimentar antipatrones extremos que definitivamente debéis evitar en vuestro diseño.
