@@ -34,7 +34,7 @@ Elige **una problemática real**. Tiene que ser algo que realmente usarías. Si 
 ## **Fases del proyecto**
 
 * [Fase 1: Entender el problema real](proyecto-disenar-para-que-funcione-fase-1.md)
-
+* [Fase 2: Organizar la información](proyecto-disenar-para-que-funcione-fase-2.md)
 
 ---
 
