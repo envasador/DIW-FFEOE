@@ -35,7 +35,10 @@ Elige **una problemática real**. Tiene que ser algo que realmente usarías. Si 
 
 * [Fase 1: Entender el problema real](proyecto-disenar-para-que-funcione-fase-1.md)
 * [Fase 2: Organizar la información](proyecto-disenar-para-que-funcione-fase-2.md)
-
+* [Fase 3: Bocetos que funcionen](proyecto-disenar-para-que-funcione-fase-3.md)
+* [Fase 4: Hazlo navegable ](proyecto-disenar-para-que-funcione-fase-4.md)
+* [Fase 5: Define tu MVP](proyecto-disenar-para-que-funcione-fase-5.md)
+* [Fase 6: Componentes reutilizables](proyecto-disenar-para-que-funcione-fase-6.md)
 ---
 
 ## **Resultados de Aprendizaje y Criterios de Evaluación**

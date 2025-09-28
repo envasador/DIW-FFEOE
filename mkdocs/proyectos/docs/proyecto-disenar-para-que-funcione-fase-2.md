@@ -7,7 +7,7 @@ hide:
 
 ### **Fase 2: Organizar la información**
 
-Antes de dibujar pantallas, hay que decidir qué va dónde.
+Antes de dibujar pantallas, hay que decidir qué va y dónde va.
 
 #### **Qué tienes que hacer:**
 
