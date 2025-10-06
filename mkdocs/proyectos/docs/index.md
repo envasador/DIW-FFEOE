@@ -29,8 +29,6 @@ Elige **una problemática real**. Tiene que ser algo que realmente usarías. Si 
 
 **Semana 4:** Fases 5, 6 y 7 (MVP \+ Componentes \+ Testing funcional \+ Iteración final)
 
----
-
 ## **Fases del proyecto**
 
 * [Fase 1: Entender el problema real](proyecto-disenar-para-que-funcione-fase-1.md)
