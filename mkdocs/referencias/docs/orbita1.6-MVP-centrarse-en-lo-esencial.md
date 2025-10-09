@@ -10,7 +10,7 @@ hide:
 
 Una vez tienes clara la arquitectura, los wireframes y un prototipo navegable, toca tomar una decisión estratégica: **¿qué funcionalidades implementas primero?**
 
-Aquí entra el **MVP** (*Minimum Viable Product*). Aunque viene del mundo startup, este concepto es perfecto para proyectos educativos porque te obliga a **priorizar lo funcional frente a lo estético** y lo imprescindible frente a lo molón.
+Aquí entra el **MVP** (*Minimum Viable Product*). Aunque viene del mundo startup, este concepto es perfecto para proyectos porque te obliga a **priorizar lo funcional frente a lo estético** y lo imprescindible frente al diseño.
 
 ### **¿Qué es un MVP?**
 
