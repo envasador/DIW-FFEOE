@@ -21,4 +21,4 @@ Por último, documenta cada componente de forma clara. No hace falta que sea un 
 
 #### **Entregable:**
 
-El sistema de componentes funcionales desarrollado en Figma debe contener una librería organizada con mínimo 7 componentes clasificados según Atomic Design, las variantes funcionales necesarias para cada estado, y documentación básica que explique el propósito y uso de cada componente para el equipo de desarrollo.
+El sistema de componentes funcionales desarrollado en Figma debe contener una librería organizada con mínimo 4 componentes clasificados según Atomic Design, las variantes funcionales necesarias para cada estado, y documentación básica que explique el propósito y uso de cada componente para el equipo de desarrollo.
