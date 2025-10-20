@@ -9,6 +9,8 @@
       
       
       
+        <link rel="prev" href="..">
+      
       
       
       <link rel="icon" href="../assets/sello-safael-slberti-imago-blanco.svg">
@@ -16,7 +18,7 @@
     
     
       
-        <title>Órbita 1: Diseñar para que funcione Introducción - Diseño de Interfaces Web - Apuntes y referencias</title>
+        <title>Órbita 1 Diseñar para que funcione - Diseño de Interfaces Web - Apuntes y referencias</title>
       
     
     
@@ -70,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#orbita-1-disenar-para-que-funcione-introduccion" class="md-skip">
+        <a href="#orbita-1-disenar-para-que-funcione" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -105,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Órbita 1: Diseñar para que funcione Introducción
+              Órbita 1 Diseñar para que funcione
             
           </span>
         </div>
@@ -215,9 +217,11 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../orbita1-disenar-para-que-funcione/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
   
@@ -296,10 +300,19 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../orbita1-disenar-para-que-funcione/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -310,6 +323,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -336,83 +350,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#7-componentes-funcionales-construir-piezas-reutilizables" class="md-nav__link">
-    <span class="md-ellipsis">
-      7. Componentes funcionales: construir piezas reutilizables
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="7. Componentes funcionales: construir piezas reutilizables">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#que-es-atomic-design" class="md-nav__link">
-    <span class="md-ellipsis">
-      ¿Qué es Atomic Design?
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#por-que-aplicar-atomic-design-antes-de-tener-estilos-visuales" class="md-nav__link">
-    <span class="md-ellipsis">
-      ¿Por qué aplicar Atomic Design antes de tener estilos visuales?
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#construir-una-libreria-funcional-en-figma" class="md-nav__link">
-    <span class="md-ellipsis">
-      Construir una librería funcional en Figma
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#herramientas-utiles" class="md-nav__link">
-    <span class="md-ellipsis">
-      Herramientas útiles
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ejemplo-practico-app-de-recetas" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ejemplo práctico: app de recetas
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#actividad-practica" class="md-nav__link">
-    <span class="md-ellipsis">
-      Actividad práctica
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -429,59 +366,23 @@
 
 
 
-<h1 id="orbita-1-disenar-para-que-funcione-introduccion"><strong>Órbita 1: Diseñar para que funcione</strong> <strong>Introducción</strong></h1>
+<h1 id="orbita-1-disenar-para-que-funcione">Órbita 1. Diseñar para que funcione.</h1>
 <p><img alt="" src="../assets/referencias.jpg" /></p>
-<h2 id="7-componentes-funcionales-construir-piezas-reutilizables"><strong>7. Componentes funcionales: construir piezas reutilizables</strong></h2>
-<p>Una vez tienes claro el MVP, los flujos y los wireframes, toca identificar qué partes se repiten y pueden convertirse en componentes reutilizables. Este paso es crucial en cualquier sistema de diseño moderno porque permite crear interfaces coherentes, mantenibles y escalables.</p>
-<p>Aquí entra el <strong>Atomic Design</strong> de Brad Frost. Esta metodología organiza los elementos de interfaz como piezas de un sistema: desde los más simples a los más complejos, para poder reutilizarlos de forma lógica y eficiente.</p>
-<h3 id="que-es-atomic-design"><strong>¿Qué es Atomic Design?</strong></h3>
-<p>Atomic Design propone cinco niveles para dividir y estructurar cualquier interfaz de manera modular:</p>
-<ol>
-<li><strong>Átomos</strong>: elementos básicos e indivisibles, como un botón, campo de texto o etiqueta.</li>
-<li><strong>Moléculas</strong>: combinaciones simples de átomos que funcionan juntos. Ejemplo: buscador (input + botón).</li>
-<li><strong>Organismos</strong>: conjuntos complejos de moléculas y átomos. Ejemplo: cabecera con logo, menú y buscador.</li>
-<li><strong>Templates</strong>: estructuras de páginas con componentes distribuidos según jerarquía definida.</li>
-<li><strong>Pages</strong>: instancias reales del diseño con contenido definitivo.</li>
-</ol>
-<p>Este enfoque aporta orden y permite detectar inconsistencias, reducir elementos redundantes y facilitar la colaboración entre diseñadores y desarrolladores.</p>
-<h3 id="por-que-aplicar-atomic-design-antes-de-tener-estilos-visuales"><strong>¿Por qué aplicar Atomic Design antes de tener estilos visuales?</strong></h3>
-<p>Puede parecer raro construir una librería de componentes sin haber definido colores o tipografías. Pero este enfoque funcional tiene ventajas:</p>
+<p>Antes de que una interfaz sea bonita, tiene que <strong>funcionar</strong>. Esta primera órbita se centra en lo fundamental: diseñar la experiencia desde un enfoque puramente funcional, sin preocuparte todavía por colores, tipografías o logos. Tu trabajo es entender qué necesita el usuario, cómo va a usar tu aplicación, y construir una estructura que funcione sin fricciones. A lo largo de esta órbita aprenderás a pensar como diseñador de experiencias: investigarás problemas reales, organizarás información de forma lógica, crearás wireframes y prototipos navegables, definirás qué funcionalidades son esenciales para tu MVP, construirás componentes reutilizables, y testearás todo con usuarios reales para iterar basándote en evidencia, no en opiniones. Trabajarás en un proyecto real que te acompañará durante todo el curso, coordinado con los módulos de desarrollo, y aprenderás que las mejores soluciones no son las más originales, sino las que aprovechan patrones mentales que los usuarios ya conocen y que convierten productos complejos en experiencias simples y naturales.</p>
+<hr />
+<p>La unidad se organiza en los siguientes apartados, que se actualizarán a medida que avance el curso.</p>
 <ul>
-<li><strong>Permite iterar antes de definir estilos</strong>, centrándose en cómo funciona, no en cómo se ve</li>
-<li><strong>Ayuda a validar interacciones y estructuras</strong> de forma rápida</li>
-<li><strong>Fomenta mentalidad de diseño sistemático</strong>, que facilita el trabajo colaborativo</li>
-</ul>
-<p>Más adelante, cuando definas estilos (en la siguiente órbita), bastará aplicar esas decisiones al sistema ya creado, en lugar de rediseñar cada pantalla desde cero.</p>
-<h3 id="construir-una-libreria-funcional-en-figma"><strong>Construir una librería funcional en Figma</strong></h3>
-<p>Figma permite trabajar con componentes y variantes de forma nativa. Puedes crear, nombrar, organizar y reutilizar elementos fácilmente, agrupándolos según Atomic Design. Un botón puede tener varias variantes: normal, con icono, desactivado...</p>
-<p>Mientras trabajas en tu app, puedes ir creando una página de componentes dentro del archivo. Esta página sirve como inventario funcional y base para el diseño visual futuro.</p>
-<p>Es importante que cada componente tenga nombre claro, función definida y, si es posible, una pequeña documentación de uso.</p>
-<h3 id="herramientas-utiles"><strong>Herramientas útiles</strong></h3>
-<p>Para organizar componentes en Figma:</p>
-<ul>
-<li><strong>Instance Finder</strong>: localiza todas las instancias de un componente</li>
-<li><strong>Design System Organizer</strong>: ayuda a categorizar y mantener jerarquía clara</li>
-<li><strong>Styler</strong>: útil para auditar estilos y preparar la transición a diseño visual</li>
-</ul>
-<p>Estas herramientas no son obligatorias, pero facilitan mantener un diseño funcional coherente.</p>
-<h3 id="ejemplo-practico-app-de-recetas"><strong>Ejemplo práctico: app de recetas</strong></h3>
-<p>En las primeras pantallas de una app de recetas, observas que hay elementos que se repiten: botones, campos de búsqueda, tarjetas con imagen y texto, menús flotantes...</p>
-<p>El primer paso sería hacer un inventario con estos elementos, clasificarlos por nivel (átomo, molécula, organismo) y construirlos como componentes reutilizables en Figma:</p>
-<p><strong>Átomos</strong>: botón, campo de texto, etiqueta <strong>Moléculas</strong>: buscador, tarjeta de receta <strong>Organismos</strong>: cabecera, listado de recetas, menú inferior</p>
-<p>Estos elementos los usas en múltiples pantallas, garantizando coherencia funcional.</p>
-<h3 id="actividad-practica"><strong>Actividad práctica</strong></h3>
-<p><strong>"Construcción del sistema de componentes"</strong></p>
-<ol>
-<li>Cada persona revisa su prototipo funcional e identifica al menos cinco componentes reutilizables</li>
-<li>En una nueva página de su archivo de Figma:<ul>
-<li>Construir esos componentes y clasificarlos según Atomic Design</li>
-<li>Añadir etiquetas y descripción funcional breve</li>
-<li>Definir al menos una variante para cada uno (ej: activo/inactivo)</li>
+<li><a href="../orbita1.1-disenar-para-que-funcione/">Órbita 1: Diseñar para que funcione</a><ul>
+<li><a href="../orbita1.1-disenar-para-que-funcione/">1.1 UX primero, UI después</a></li>
+<li><a href="../orbita1.2-patrones-y-antipatrones/">1.2 Patrones y Antipatrones</a></li>
+<li><a href="../orbita1.3-arquitectura-de-la-informacion/">1.3 Arquitectura de la información</a></li>
+<li><a href="../orbita1.4-wireframes/">1.4 Wireframes</a></li>
+<li><a href="../orbita1.5-prototipado/">1.5 Prototipado</a></li>
+<li><a href="../orbita1.6-MVP-centrarse-en-lo-esencial/">1.6 MVP: Centrarse en lo esencial</a></li>
+<li><a href="../orbita1.7-componentes-reutilizables/">1.7 Atomic Deisgn</a></li>
 </ul>
 </li>
-<li>Esta actividad no requiere estilo visual. Su objetivo es estructurar la interfaz funcional como sistema reutilizable</li>
-</ol>
-<p>Este sistema servirá de base directa para la siguiente órbita, donde aplicaremos colores, tipografías y guías de estilo.</p>
+</ul>
 
 
 
