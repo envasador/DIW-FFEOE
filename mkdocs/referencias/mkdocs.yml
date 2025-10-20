@@ -5,7 +5,7 @@ site_dir: ../../docs/referencias
 # Page tree
 nav:
   - Inicio: index.md
-  - Órbita 1 Diseñar para que funcione: orbita1.1-disenar-para-que-funcione.md
+  - Órbita 1 Diseñar para que funcione: orbita1-disenar-para-que-funcione.md
 
 
   # - UD5:

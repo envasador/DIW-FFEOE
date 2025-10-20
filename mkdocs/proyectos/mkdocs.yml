@@ -6,7 +6,7 @@ site_dir: ../../docs/proyectos
 # Page tree
 nav:
   - Inicio: index.md
-  - Proyecto 1: proyecto-disenar-para-que-funcione-fase-1.md
+  - Proyecto 1: proyecto1.md
 
 
 extra:
