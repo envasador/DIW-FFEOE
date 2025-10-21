@@ -13,6 +13,7 @@ Diseño de Interfaces Web dentro del ciclo de Desarrollo de Aplicaciones Web se 
 El módulo se organiza en las siguientes unidades, que se actualizarán a medida que avance el curso. Cada unidad incluye enlaces de referencia y recursos adicionales para facilitar tu aprendizaje:
 
 * [Órbita 1: Diseñar para que funcione](orbita1-disenar-para-que-funcione.md)
+* [Órbita 2: Diseñar para que se entienda](orbita2-disenar-para-que-se-entienda.md)
 
 
 
