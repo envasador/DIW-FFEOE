@@ -19,7 +19,7 @@ La unidad se organiza en los siguientes apartados, que se actualizarán a medida
 * [Órbita 2.2: Color](orbita2.2-color.md)
 * [Órbita 2.3 Iconos](orbita2.3-iconos.md)
 * [Órbita2.4 Tipografía](orbita2.4-tipografia.md)
-
+* [Órbita 2.5 Guia de estilo](orbita2.5-guia-de-estilo.md)
 
 
 
