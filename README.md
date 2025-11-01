@@ -15,10 +15,10 @@ Material didáctico del módulo Diseño de Interfaces Web del CFGS Desarrollo de
 <section>
     <ul>
         <li>
-            <a href="https://envasador.github.io/DIW-Dual/docs/referencias"> Apuntes y referencias</a>
+            <a href="https://envasador.github.io/DIW-FFEOE/docs/referencias"> Apuntes y referencias</a>
         </li>
         <li>
-            <a href="https://envasador.github.io/DIW-Dual/docs/proyectos/"> Proyectos </a>
+            <a href="https://envasador.github.io/DIW-FFEOE/docs/proyectos/"> Proyectos </a>
         </li>
     </ul>
     <img src="logos/Portada-DIW.png" alt="Cover Diseño de Interfaces Web">
