@@ -28,12 +28,12 @@ Por último, documenta todo en Figma en una página llamada "Guía de estilo". O
 ### Entregable:
 
 Un archivo Figma con:
-- Moodboard visual con dirección estética clara y palabras clave
-- Sistema de color completo con paletas de tonos y verificación de accesibilidad documentada
-- Escala tipográfica definida con todos los Text Styles y ejemplos de uso
-- Librería de iconos seleccionada y casos de uso documentados
-- Escala de espaciado definida con ejemplos aplicados
-- Guía de estilo organizada y completa que sirva como referencia única para todo el diseño posterior
+* Moodboard visual con dirección estética clara y palabras clave 
+* Sistema de color completo con paletas de tonos y verificación de accesibilidad documentada 
+* Escala tipográfica definida con todos los Text Styles y ejemplos de uso 
+* Librería de iconos seleccionada y casos de uso documentados 
+* Escala de espaciado definida con ejemplos aplicados 
+* Guía de estilos en Figma organizada y completa que sirva como referencia única para todo el diseño posterior. Con Variables y Estilos.
 
 ### Tiempo estimado:
 
