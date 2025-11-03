@@ -30,6 +30,7 @@ Organiza tu archivo Figma de manera clara: una página para la guía de estilo, 
 ### Entregable:
 
 Un archivo Figma con:
+
 * Biblioteca de componentes completa y documentada con todos los estados 
 * 5-7 pantallas clave (MVP) en mockup de alta fidelidad aplicando el sistema completo 
 * Estados especiales diseñados (carga, vacío, error, éxito)

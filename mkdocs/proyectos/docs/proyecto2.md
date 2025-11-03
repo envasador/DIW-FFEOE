@@ -25,6 +25,7 @@ Al final de este proyecto tendrás mockups de alta fidelidad listos para testear
 **Semana 2:** Fase 2 (Mockups y biblioteca de componentes)
 
 ### **Fases del proyecto**
+
 * [Fase 1: Moodboard y guía de estilo](proyecto-disenar-para-que-se-entienda-fase-1.md)
 * [Fase 2: Mockups y biblioteca de componentes](proyecto-disenar-para-que-se-entienda-fase-2.md)
 
@@ -43,7 +44,6 @@ Los criterios de evaluación que aborda este proyecto son:
 **RA6: Desarrolla interfaces Web amigables analizando y aplicando las pautas de usabilidad establecidas.**
 
 Los criterios específicos que trabajamos son:
-* 
 * Se ha modificado el interfaz web para adecuarlo al objetivo que persigue y a los usuarios a los que va dirigido 
 * Se han verificado los criterios de accesibilidad y diseño aplicados
 
