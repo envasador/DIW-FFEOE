@@ -6,9 +6,9 @@ hide:
 
 ![](assets/referencias.jpg)
 
-# Proyecto 2: Diseñar para que se entienda
+# **Proyecto 2: Diseñar para que se entienda**
 
-## ¿De qué va esto?
+### **¿De qué va esto?**
 
 Ya tienes la estructura funcional. Sabes qué hace tu producto, cómo funciona, qué pantallas tiene y cómo se conectan. Ahora toca que se **entienda visualmente**.
 
@@ -18,17 +18,17 @@ No se trata de hacer las cosas "bonitas", sino de tomar decisiones visuales basa
 
 Al final de este proyecto tendrás mockups de alta fidelidad listos para testear y para que desarrollo los implemente. Y lo harás creando un sistema, no diseñando pantallas sueltas: cada decisión se documenta, se reutiliza, y se escala conforme el proyecto crece.
 
-## Cronograma (2 semanas)
+### **Cronograma (2 semanas)**
 
 **Semana 1:** Fase 1 (Moodboard y guía de estilo)
 
 **Semana 2:** Fase 2 (Mockups y biblioteca de componentes)
 
-## Fases del proyecto
-[Fase 1: Moodboard y guía de estilo](proyecto-disenar-para-que-se-entienda-fase-1.md)
-[Fase 2: Mockups y biblioteca de componentes](proyecto-disenar-para-que-se-entienda-fase-2.md)
+### **Fases del proyecto**
+* [Fase 1: Moodboard y guía de estilo](proyecto-disenar-para-que-se-entienda-fase-1.md)
+* [Fase 2: Mockups y biblioteca de componentes](proyecto-disenar-para-que-se-entienda-fase-2.md)
 
-## Resultados de Aprendizaje y Criterios de Evaluación
+### **Resultados de Aprendizaje y Criterios de Evaluación**
 
 Este proyecto trabaja principalmente sobre el **RA1** y el **RA6**:
 
