@@ -24,6 +24,10 @@ Al final de este proyecto tendrás mockups de alta fidelidad listos para testear
 
 **Semana 2:** Fase 2 (Mockups y biblioteca de componentes)
 
+## Fases del proyecto
+[Fase 1: Moodboard y guía de estilo](proyecto-disenar-para-que-se-entienda-fase-1.md)
+[Fase 2: Mockups y biblioteca de componentes](proyecto-disenar-para-que-se-entienda-fase-2.md)
+
 ## Resultados de Aprendizaje y Criterios de Evaluación
 
 Este proyecto trabaja principalmente sobre el **RA1** y el **RA6**:

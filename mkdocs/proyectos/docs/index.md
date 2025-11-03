@@ -13,4 +13,4 @@ Diseño de Interfaces Web dentro del ciclo de Desarrollo de Aplicaciones Web se 
 El módulo se organiza en las siguientes unidades, que se actualizarán a medida que avance el curso. Cada unidad incluye enlaces de referencia y recursos adicionales para facilitar tu aprendizaje:
 
 * [Proyecto 1: Diseñar para que funcione](proyecto1.md)
-
+* [Proyecto 2: Diseñar para que se entienda](proyecto2.md)
