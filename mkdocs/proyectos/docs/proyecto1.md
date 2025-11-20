@@ -60,3 +60,19 @@ Los criterios específicos que trabajamos son:
 * Se ha analizado la usabilidad de diferentes documentos web
 * Se ha modificado el interfaz web para adecuarlo al objetivo que persigue y a los usuarios a los que va dirigido
 * Se han analizado diferentes técnicas para verificar la usabilidad de un documento web
+
+
+### Rúbrica de evaluación
+
+| **Criterio** | **Descripción** | **Insuficiente (1–3)** | **Básico (4–5)** | **Adecuado (6–7)** | **Avanzado (8–9)** | **Excelente (10)** | **RA vinculado** |
+|--------------|-----------------|-------------------------|------------------|--------------------|--------------------|--------------------|------------------|
+| **C1. Presentación y organización de la información** | Evalúa la claridad y efectividad con la que se presentan los contenidos y flujos de navegación. | Estructura desordenada, sin jerarquía ni propósito. | Organización parcial o confusa. | Estructura clara, jerarquía aceptable. | Presentación equilibrada y comprensible. | Organización excelente, jerarquía visual y funcional impecable. | RA1.b |
+| **C2. Guía de estilo y coherencia** | Evalúa la definición de normas visuales y su aplicación coherente en todo el diseño. | No existe guía o es incoherente. | Guía básica o incompleta. | Guía funcional con normas aplicadas. | Guía coherente y reutilizable. | Guía profesional y documentada que garantiza coherencia total. | RA1.c |
+| **C3. Uso de tecnologías de diseño** | Evalúa el uso de herramientas y recursos digitales (Figma, wireframes, prototipado, etc.). | No usa herramientas adecuadas o las usa mal. | Uso limitado con errores. | Manejo correcto y organizado. | Buen dominio de herramientas y documentación clara. | Uso avanzado, estructurado y profesional de las herramientas. | RA1.d |
+| **C4. Plantillas y componentes reutilizables** | Evalúa la creación y uso de estructuras o plantillas coherentes entre pantallas. | No hay plantillas o son inconsistentes. | Plantillas simples o con errores. | Plantillas funcionales aplicadas correctamente. | Sistema coherente de componentes reutilizables. | Sistema completo y modular que favorece la escalabilidad. | RA1.e |
+| **C5. Análisis de usabilidad** | Evalúa la capacidad de analizar y comparar diferentes documentos web en base a su usabilidad. | No se analiza la usabilidad o se hace sin criterio. | Análisis superficial o sin ejemplos claros. | Análisis correcto con observaciones básicas. | Buen análisis con criterios razonados y ejemplos concretos. | Análisis profundo, comparativo y bien argumentado con referencias a pautas de usabilidad. | RA6.a |
+| **C6. Adecuación al usuario y objetivo** | Evalúa si la propuesta responde al propósito del producto y al perfil del usuario. | No responde a las necesidades del usuario ni al propósito. | Parcialmente adaptado o incoherente. | Diseño adecuado al contexto general. | Diseño coherente con el público y objetivo. | Diseño perfectamente alineado con el usuario y el propósito comunicativo. | RA6.b |
+| **C7. Técnicas de verificación de usabilidad** | Evalúa la aplicación o conocimiento de métodos para comprobar la usabilidad (heurísticas, test, revisiones, etc.). | No se aplican ni mencionan técnicas. | Se mencionan sin aplicarlas. | Se aplican técnicas básicas de comprobación. | Se aplican y documentan correctamente varias técnicas. | Se aplican técnicas profesionales, justificadas y bien documentadas. | RA6.c |
+
+
+

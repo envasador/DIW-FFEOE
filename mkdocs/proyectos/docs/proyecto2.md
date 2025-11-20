@@ -37,16 +37,16 @@ Este proyecto trabaja principalmente sobre el **RA1** y el **RA6**:
 
 Los criterios de evaluación que aborda este proyecto son:
 
-* Se han analizado y seleccionado los colores y tipografías adecuados para su visualización en pantalla. 
-* Se han analizado alternativas para la presentación de la información en documentos web. 
-* Se ha valorado la importancia de definir y aplicar la guía de estilo en el desarrollo de una aplicación web. 
-* Se han utilizado y valorado distintas tecnologías para el diseño de documentos web. 
-* Se han creado y utilizado plantillas de diseño.
+* b) Se han analizado y seleccionado los colores y tipografías adecuados para su visualización en pantalla. 
+* c) Se han analizado alternativas para la presentación de la información en documentos web. 
+* d) Se ha valorado la importancia de definir y aplicar la guía de estilo en el desarrollo de una aplicación web. 
+* e) Se han utilizado y valorado distintas tecnologías para el diseño de documentos web. 
+* f) Se han creado y utilizado plantillas de diseño.
 
 **RA6: Desarrolla interfaces Web amigables analizando y aplicando las pautas de usabilidad establecidas.**
 
 Los criterios específicos que trabajamos son:
-* Se ha modificado el interfaz web para adecuarlo al objetivo que persigue y a los usuarios a los que va dirigido 
+* c) Se ha modificado la interfaz web para adecuarlo al objetivo que persigue y a los usuarios a los que va dirigido 
 
 ### Rúbrica de evaluación
 
