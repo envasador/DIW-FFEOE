@@ -1,0 +1,1515 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/sello-safael-slberti-imago-blanco.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Órbita 3: Maquetar para dar forma - Diseño de Interfaces Web - Apuntes y referencias</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheet/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="daw-style" data-md-color-primary="grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#orbita-3-maquetar-para-dar-forma" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Diseño de Interfaces Web - Apuntes y referencias" class="md-header__button md-logo" aria-label="Diseño de Interfaces Web - Apuntes y referencias" data-md-component="logo">
+      
+  <img src="../assets/sello-safael-slberti-imago-blanco.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Diseño de Interfaces Web - Apuntes y referencias
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Órbita 3: Maquetar para dar forma
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="daw-style" data-md-color-primary="grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Inicio
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../orbita1-disenar-para-que-funcione/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Órbita 1 Diseñar para que funcione
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../orbita2-disenar-para-que-se-entienda/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Órbita 2 Diseñar para que se entienda
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../orbita3-maquetar-para-dar-forma/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Órbita 3 Maquetar para dar forma
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Diseño de Interfaces Web - Apuntes y referencias" class="md-nav__button md-logo" aria-label="Diseño de Interfaces Web - Apuntes y referencias" data-md-component="logo">
+      
+  <img src="../assets/sello-safael-slberti-imago-blanco.svg" alt="logo">
+
+    </a>
+    Diseño de Interfaces Web - Apuntes y referencias
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../orbita1-disenar-para-que-funcione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Órbita 1 Diseñar para que funcione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../orbita2-disenar-para-que-se-entienda/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Órbita 2 Diseñar para que se entienda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../orbita3-maquetar-para-dar-forma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Órbita 3 Maquetar para dar forma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<h1 id="orbita-3-maquetar-para-dar-forma">Órbita 3: Maquetar para dar forma</h1>
+<h1 id="orbita-3-maquetar-para-dar-forma_1">Órbita 3: Maquetar para dar forma</h1>
+<h2 id="introduccion">Introducción</h2>
+<p>La maquetación web ha evolucionado drásticamente en los últimos años. Ya no se trata solo de "hacer que se vea bien", sino de construir interfaces escalables, mantenibles y preparadas para crecer. En esta órbita aprenderás a transformar tus diseños de Figma en código que funciona en el mundo real, utilizando las herramientas y técnicas que se emplean en equipos profesionales de frontend.</p>
+<p>El objetivo no es memorizar todas las propiedades CSS que existen, sino entender <strong>cómo pensar en componentes</strong>, <strong>cómo estructurar tu código para que otros lo entiendan</strong>, y <strong>cómo usar las características modernas de la plataforma web</strong> para escribir menos código y más expresivo.</p>
+<h2 id="1-html5-semantico-la-base-de-todo">1. HTML5 semántico: La base de todo</h2>
+<h3 id="por-que-importa-la-semantica">¿Por qué importa la semántica?</h3>
+<p>Cuando escribes HTML, no solo estás diciéndole al navegador "pon esto en pantalla". Estás comunicando <strong>significado</strong>: qué es cada cosa, cómo se relaciona con lo demás, y cómo debe interpretarse. Esto es crucial para:</p>
+<ul>
+<li><strong>Accesibilidad</strong>: Los lectores de pantalla navegan por la estructura semántica</li>
+<li><strong>SEO</strong>: Los buscadores entienden mejor el contenido estructurado</li>
+<li><strong>Mantenibilidad</strong>: Otro desarrollador (o tú mismo en 6 meses) entiende qué hace cada parte</li>
+<li><strong>CSS más limpio</strong>: Puedes seleccionar elementos por su significado, no solo por clases arbitrarias</li>
+</ul>
+<h3 id="elementos-estructurales-modernos">Elementos estructurales modernos</h3>
+<p>HTML5 nos dio elementos que describen la función de cada parte de la página:</p>
+<pre><code class="language-html">&lt;header&gt;
+  &lt;nav&gt;
+    &lt;!-- Navegación principal --&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;main&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Título de la sección&lt;/h1&gt;
+    &lt;p&gt;Contenido de la sección...&lt;/p&gt;
+  &lt;/section&gt;
+
+  &lt;aside&gt;
+    &lt;!-- Información complementaria --&gt;
+  &lt;/aside&gt;
+&lt;/main&gt;
+
+&lt;footer&gt;
+  &lt;!-- Pie de página --&gt;
+&lt;/footer&gt;
+</code></pre>
+<p><strong><code>&lt;article&gt;</code></strong> → Contenido independiente y reutilizable (blog post, tarjeta de producto):</p>
+<pre><code class="language-html">&lt;article&gt;
+  &lt;h2&gt;Cómo aprender CSS&lt;/h2&gt;
+  &lt;p&gt;Contenido del post...&lt;/p&gt;
+&lt;/article&gt;
+</code></pre>
+<p><strong><code>&lt;section&gt;</code></strong> → Agrupación temática que contiene varios elementos:</p>
+<pre><code class="language-html">&lt;section&gt;
+  &lt;h2&gt;Productos destacados&lt;/h2&gt;
+
+  &lt;article&gt;
+    &lt;h3&gt;Producto A&lt;/h3&gt;
+    &lt;p&gt;Descripción...&lt;/p&gt;
+  &lt;/article&gt;
+
+  &lt;article&gt;
+    &lt;h3&gt;Producto B&lt;/h3&gt;
+    &lt;p&gt;Descripción...&lt;/p&gt;
+  &lt;/article&gt;
+&lt;/section&gt;
+</code></pre>
+<p><strong>Regla práctica</strong>: Si estás tentado a escribir <code>&lt;div class="header"&gt;</code>, probablemente existe un elemento semántico más apropiado.</p>
+<h3 id="patrones-comunes-que-debes-dominar">Patrones comunes que debes dominar</h3>
+<p><strong>Listas de navegación:</strong></p>
+<pre><code class="language-html">&lt;nav aria-label=&quot;Navegación principal&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;/&quot;&gt;Inicio&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/productos&quot;&gt;Productos&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/contacto&quot;&gt;Contacto&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
+<p><strong>Formularios accesibles:</strong></p>
+<pre><code class="language-html">&lt;form&gt;
+  &lt;fieldset&gt;
+    &lt;legend&gt;Datos de contacto&lt;/legend&gt;
+
+    &lt;label&gt;
+      Correo electrónico
+      &lt;input 
+        type=&quot;email&quot; 
+        name=&quot;email&quot;
+        required
+        aria-describedby=&quot;email-hint&quot;
+      &gt;
+      &lt;small id=&quot;email-hint&quot;&gt;Nunca compartiremos tu email&lt;/small&gt;
+    &lt;/label&gt;
+
+    &lt;label&gt;
+      Teléfono
+      &lt;input type=&quot;tel&quot; name=&quot;phone&quot;&gt;
+    &lt;/label&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;
+</code></pre>
+<p><strong>Contenido multimedia con fallbacks:</strong></p>
+<pre><code class="language-html">&lt;picture&gt;
+  &lt;source srcset=&quot;imagen.webp&quot; type=&quot;image/webp&quot;&gt;
+  &lt;source srcset=&quot;imagen.jpg&quot; type=&quot;image/jpeg&quot;&gt;
+  &lt;img src=&quot;imagen.jpg&quot; alt=&quot;Descripción significativa&quot; loading=&quot;lazy&quot;&gt;
+&lt;/picture&gt;
+</code></pre>
+<h3 id="lo-que-no-debes-hacer">Lo que NO debes hacer</h3>
+<p>❌ Usar <code>&lt;div&gt;</code> y <code>&lt;span&gt;</code> para todo<br />
+❌ Escribir HTML que solo tenga sentido visualmente<br />
+❌ Omitir atributos <code>alt</code>, <code>aria-label</code>, o roles ARIA cuando son necesarios<br />
+❌ Usar elementos por su apariencia predeterminada (<code>&lt;h1&gt;</code> porque es grande)</p>
+<h2 id="2-css-moderno-arquitectura-y-organizacion">2. CSS moderno: Arquitectura y organización</h2>
+<h3 id="el-problema-de-css-a-escala">El problema de CSS a escala</h3>
+<p>CSS es fácil de empezar pero difícil de mantener. Sin estructura, acabas con:</p>
+<ul>
+<li>Estilos globales que se pisan entre sí</li>
+<li>Especificidad fuera de control</li>
+<li>Código duplicado por todas partes</li>
+<li>Miedo a cambiar algo porque "no sé qué más se romperá"</li>
+</ul>
+<p>La solución no es escribir más CSS, sino <strong>organizarlo mejor</strong>.</p>
+<h3 id="arquitectura-pensando-en-capas">Arquitectura: Pensando en capas</h3>
+<p>El CSS moderno nos da herramientas para organizar estilos en capas explícitas. Piensa en tu CSS como una cebolla con diferentes niveles de especificidad:</p>
+<p><strong>Capa 1: Reset/Normalize</strong><br />
+Neutraliza las diferencias entre navegadores y establece una base consistente.</p>
+<p><strong>Capa 2: Tokens de diseño</strong><br />
+Variables que definen tu sistema visual: colores, espaciado, tipografía, sombras.</p>
+<p><strong>Capa 3: Estilos base</strong><br />
+Estilos aplicados directamente a elementos HTML sin clases.</p>
+<p><strong>Capa 4: Layouts</strong><br />
+Estructuras de página reutilizables (grids, contenedores, regiones).</p>
+<p><strong>Capa 5: Componentes</strong><br />
+Bloques de interfaz independientes y reutilizables.</p>
+<p><strong>Capa 6: Utilidades</strong><br />
+Clases de propósito único para ajustes rápidos.</p>
+<p><strong>Capa 7: Overrides</strong><br />
+Estados especiales, temas, o excepciones controladas.</p>
+<h3 id="cascade-layers-haciendo-explicito-el-orden">Cascade Layers: Haciendo explícito el orden</h3>
+<p>CSS Cascade Layers (<code>@layer</code>) es una de las características más importantes añadidas a CSS en años. Te permite definir explícitamente el orden de prioridad de tus estilos:</p>
+<pre><code class="language-css">/* Definimos el orden de las capas */
+@layer reset, tokens, base, layouts, components, utilities, overrides;
+
+/* Cada capa tiene su archivo */
+@layer reset {
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+  }
+}
+
+@layer tokens {
+  :root {
+    --color-primary: oklch(0.6 0.2 250);
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+  }
+}
+
+@layer components {
+  .button {
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: var(--color-primary);
+  }
+}
+
+@layer overrides {
+  .button.is-disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+</code></pre>
+<p><strong>Ventaja clave</strong>: Los estilos en capas superiores SIEMPRE ganan, sin importar la especificidad. Esto elimina gran parte de la guerra de <code>!important</code>.</p>
+<h3 id="variables-css-custom-properties-tu-sistema-de-diseno-en-codigo">Variables CSS (Custom Properties): Tu sistema de diseño en código</h3>
+<p>Las variables CSS son mucho más poderosas que las variables de preprocesadores porque:</p>
+<ol>
+<li><strong>Son reactivas</strong>: Puedes cambiarlas con JavaScript</li>
+<li><strong>Heredan</strong>: Puedes redefinirlas en contextos específicos</li>
+<li><strong>Se inspeccionan en DevTools</strong>: Ves los valores computados en tiempo real</li>
+</ol>
+<pre><code class="language-css">:root {
+  /* Colores primitivos */
+  --color-blue-50: oklch(0.95 0.02 250);
+  --color-blue-500: oklch(0.6 0.2 250);
+  --color-blue-900: oklch(0.3 0.15 250);
+
+  /* Tokens semánticos */
+  --color-primary: var(--color-blue-500);
+  --color-surface: var(--color-blue-50);
+
+  /* Espaciado con escala */
+  --space-unit: 0.5rem;
+  --space-1: calc(var(--space-unit) * 1);
+  --space-2: calc(var(--space-unit) * 2);
+  --space-3: calc(var(--space-unit) * 3);
+}
+
+/* Tema oscuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-surface: var(--color-blue-900);
+    --color-primary: var(--color-blue-50);
+  }
+}
+
+/* Contexto específico */
+.card {
+  --card-padding: var(--space-2);
+  padding: var(--card-padding);
+}
+
+.card.is-compact {
+  --card-padding: var(--space-1);
+}
+</code></pre>
+<h3 id="scope-css-que-sabe-donde-vive">@scope: CSS que sabe dónde vive</h3>
+<p><code>@scope</code> te permite limitar el alcance de tus estilos a un contexto específico sin aumentar la especificidad:</p>
+<pre><code class="language-css">/* Sin @scope: colisiones globales */
+.card .title { color: blue; }
+.modal .title { color: red; }
+
+/* Con @scope: contexto explícito */
+@scope (.card) {
+  .title {
+    color: blue;
+  }
+}
+
+@scope (.modal) {
+  .title {
+    color: red;
+  }
+}
+
+/* Límites de scope: afecta dentro de .card pero no dentro de .nested */
+@scope (.card) to (.nested) {
+  .title {
+    color: blue;
+  }
+}
+</code></pre>
+<p><strong>Caso de uso real</strong>: Componentes de Angular o React que necesitan estilos aislados sin usar CSS Modules o styled-components.</p>
+<h3 id="container-queries-componentes-que-se-adaptan-a-su-contenedor">Container Queries: Componentes que se adaptan a su contenedor</h3>
+<p>Durante años, hemos usado media queries que miran el tamaño de la ventana. Pero los componentes realmente necesitan saber <strong>su propio tamaño</strong>, no el tamaño de la pantalla.</p>
+<pre><code class="language-css">/* Definir un contenedor */
+.card-container {
+  container-type: inline-size;
+  container-name: card;
+}
+
+/* El componente se adapta a su contenedor */
+@container card (min-width: 400px) {
+  .card {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+
+  .card__image {
+    aspect-ratio: 1;
+  }
+}
+
+@container card (min-width: 600px) {
+  .card {
+    grid-template-columns: 300px 1fr;
+  }
+}
+</code></pre>
+<p><strong>Por qué es revolucionario</strong>: Puedes reutilizar el mismo componente en una barra lateral estrecha y en el contenido principal, y se adaptará automáticamente sin saber dónde está.</p>
+<h3 id="el-selector-has-css-aprende-a-mirar-hacia-adelante">El selector :has() — CSS aprende a mirar hacia adelante</h3>
+<p><code>:has()</code> es básicamente un "selector padre" que CSS nunca tuvo:</p>
+<pre><code class="language-css">/* Estilizar un formulario que contiene errores */
+form:has(.error) {
+  border: 2px solid red;
+}
+
+/* Card con imagen */
+.card:has(img) {
+  display: grid;
+}
+
+/* Card sin imagen */
+.card:not(:has(img)) {
+  display: flex;
+}
+
+/* Artículo seguido de otro artículo (no el primero) */
+article:has(+ article) {
+  border-bottom: 1px solid gray;
+}
+
+/* Lista con al menos 5 items */
+ul:has(&gt; li:nth-child(5)) {
+  columns: 2;
+}
+</code></pre>
+<p><strong>Caso de uso real</strong>: Adaptar layouts según el contenido que realmente existe, sin JavaScript.</p>
+<h2 id="3-sistemas-de-layout-grid-y-flexbox">3. Sistemas de Layout: Grid y Flexbox</h2>
+<h3 id="cuando-usar-cada-uno">Cuándo usar cada uno</h3>
+<p><strong>Flexbox</strong>: Para layouts <strong>unidimensionales</strong> (fila O columna)
+- Barras de navegación
+- Botones con iconos
+- Centrado de elementos
+- Distribución de espacio entre items</p>
+<p><strong>Grid</strong>: Para layouts <strong>bidimensionales</strong> (filas Y columnas)
+- Layouts de página completos
+- Galerías de imágenes
+- Formularios complejos
+- Dashboards</p>
+<h3 id="flexbox-los-patrones-que-mas-usaras">Flexbox: Los patrones que más usarás</h3>
+<pre><code class="language-css">/* Centrado perfecto */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Distribución espaciada */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Columnas de igual altura */
+.card-grid {
+  display: flex;
+  gap: 1rem;
+}
+
+.card {
+  flex: 1; /* Todos crecen igual */
+}
+
+/* Botón con icono */
+.button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+</code></pre>
+<h3 id="grid-pensando-en-areas">Grid: Pensando en áreas</h3>
+<pre><code class="language-css">/* Layout de página clásico */
+.page {
+  display: grid;
+  grid-template-areas:
+    &quot;header header header&quot;
+    &quot;sidebar main aside&quot;
+    &quot;footer footer footer&quot;;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  gap: 1rem;
+}
+
+.header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.main { grid-area: main; }
+.aside { grid-area: aside; }
+.footer { grid-area: footer; }
+
+/* Galería responsive sin media queries */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+</code></pre>
+<p><strong>Patrón clave</strong>: <code>auto-fit</code> + <code>minmax()</code> = Grid responsivo sin breakpoints.</p>
+<h3 id="subgrid-alineacion-entre-generaciones">Subgrid: Alineación entre generaciones</h3>
+<pre><code class="language-css">.card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: subgrid; /* Hereda las filas del padre */
+  grid-row: span 3;
+}
+
+/* Ahora todos los títulos, contenidos y botones se alinean */
+</code></pre>
+<h2 id="4-diseno-responsive-mas-alla-de-los-breakpoints">4. Diseño Responsive: Más allá de los breakpoints</h2>
+<h3 id="mobile-first-por-que-y-como">Mobile-first: Por qué y cómo</h3>
+<p>Empezar por móvil te obliga a priorizar. Si funciona en una pantalla pequeña, escalar hacia arriba es más fácil que lo contrario.</p>
+<pre><code class="language-css">/* Base: móvil */
+.container {
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    padding: 2rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+</code></pre>
+<h3 id="unidades-fluidas-tipografia-que-escala">Unidades fluidas: Tipografía que escala</h3>
+<pre><code class="language-css">:root {
+  /* Escala entre 16px y 24px según el viewport */
+  --font-size-fluid: clamp(1rem, 0.8rem + 1vw, 1.5rem);
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+.container {
+  /* Padding fluido entre 1rem y 3rem */
+  padding-inline: clamp(1rem, 5%, 3rem);
+}
+</code></pre>
+<p><strong>Función clave</strong>: <code>clamp(mínimo, preferido, máximo)</code> — tu nueva mejor amiga.</p>
+<h3 id="aspect-ratio-imagenes-que-no-saltan">Aspect Ratio: Imágenes que no saltan</h3>
+<pre><code class="language-css">.video-container {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.thumbnail {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+/* Fallback para navegadores antiguos */
+@supports not (aspect-ratio: 1) {
+  .thumbnail {
+    padding-bottom: 100%; /* Hack del padding */
+  }
+}
+</code></pre>
+<h2 id="5-scss-y-preprocesadores-organizacion-a-escala">5. SCSS y Preprocesadores: Organización a escala</h2>
+<h3 id="necesitas-scss-en-2024">¿Necesitas SCSS en 2024?</h3>
+<p>CSS nativo ha incorporado muchas características que antes requerían preprocesadores (variables, nesting). Sin embargo, SCSS sigue siendo valioso por:</p>
+<ul>
+<li><strong>Mixins</strong>: Reutilización de bloques de código</li>
+<li><strong>Funciones</strong>: Lógica en tiempo de compilación</li>
+<li><strong>Partials</strong>: Organización en archivos</li>
+<li><strong>Ecosistema</strong>: Herramientas maduras y bien documentadas</li>
+</ul>
+<h3 id="estructura-de-archivos-escalable">Estructura de archivos escalable</h3>
+<pre><code>styles/
+├── abstracts/
+│   ├── _variables.scss
+│   ├── _functions.scss
+│   └── _mixins.scss
+├── base/
+│   ├── _reset.scss
+│   └── _typography.scss
+├── layouts/
+│   ├── _grid.scss
+│   └── _containers.scss
+├── components/
+│   ├── _buttons.scss
+│   ├── _cards.scss
+│   └── _forms.scss
+├── utilities/
+│   └── _helpers.scss
+└── main.scss
+</code></pre>
+<h3 id="mixins-utiles-para-proyectos-reales">Mixins útiles para proyectos reales</h3>
+<pre><code class="language-scss">// Responsive breakpoints
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == tablet {
+    @media (min-width: 768px) { @content; }
+  } @else if $breakpoint == desktop {
+    @media (min-width: 1024px) { @content; }
+  }
+}
+
+// Uso
+.card {
+  padding: 1rem;
+
+  @include respond-to(tablet) {
+    padding: 2rem;
+  }
+}
+
+// Truncate text
+@mixin truncate($lines: 1) {
+  @if $lines == 1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  } @else {
+    display: -webkit-box;
+    -webkit-line-clamp: $lines;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+// Focus visible accesible
+@mixin focus-visible {
+  &amp;:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
+</code></pre>
+<h3 id="funciones-para-sistemas-de-diseno">Funciones para sistemas de diseño</h3>
+<pre><code class="language-scss">// Escala de espaciado
+@function spacing($multiplier) {
+  @return calc(var(--space-unit) * #{$multiplier});
+}
+
+// Uso
+.card {
+  padding: spacing(2); // 1rem
+  margin-bottom: spacing(4); // 2rem
+}
+
+// Colores con transparencia
+@function alpha($color, $opacity) {
+  @return rgba($color, $opacity);
+}
+</code></pre>
+<h2 id="6-css-en-angular-viewencapsulation-y-arquitectura">6. CSS en Angular: ViewEncapsulation y arquitectura</h2>
+<h3 id="como-angular-maneja-los-estilos">Cómo Angular maneja los estilos</h3>
+<p>Angular ofrece tres modos de encapsulación de estilos:</p>
+<p><strong>Emulated (por defecto)</strong>: Angular añade atributos únicos a tus elementos y reescribe tus selectores para que sean específicos del componente.</p>
+<pre><code class="language-typescript">@Component({
+  selector: 'app-card',
+  templateUrl: './card.component.html',
+  styleUrls: ['./card.component.scss'],
+  encapsulation: ViewEncapsulation.Emulated // Por defecto
+})
+</code></pre>
+<p>Genera HTML como:</p>
+<pre><code class="language-html">&lt;app-card _ngcontent-abc123&gt;
+  &lt;h2 _ngcontent-abc123&gt;Título&lt;/h2&gt;
+&lt;/app-card&gt;
+</code></pre>
+<p>Y CSS como:</p>
+<pre><code class="language-css">h2[_ngcontent-abc123] {
+  color: blue;
+}
+</code></pre>
+<p><strong>ShadowDOM</strong>: Usa Shadow DOM nativo del navegador.</p>
+<pre><code class="language-typescript">encapsulation: ViewEncapsulation.ShadowDom
+</code></pre>
+<p><strong>None</strong>: Sin encapsulación, los estilos son globales.</p>
+<pre><code class="language-typescript">encapsulation: ViewEncapsulation.None
+</code></pre>
+<h3 id="arquitectura-de-estilos-en-angular">Arquitectura de estilos en Angular</h3>
+<p><strong>Opción 1: Estilos globales + tokens</strong></p>
+<pre><code class="language-scss">// styles.scss (global)
+@import 'abstracts/variables';
+@import 'base/reset';
+@import 'base/typography';
+
+:root {
+  --color-primary: #3b82f6;
+  --spacing-unit: 0.5rem;
+}
+
+// card.component.scss
+.card {
+  padding: var(--spacing-unit);
+  background: var(--color-primary);
+}
+</code></pre>
+<p><strong>Opción 2: Biblioteca de utilidades compartidas</strong></p>
+<pre><code class="language-scss">// _shared.scss
+@mixin card-shadow {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+// card.component.scss
+@import 'shared';
+
+.card {
+  @include card-shadow;
+}
+</code></pre>
+<p><strong>Opción 3: Cascade Layers con Angular</strong></p>
+<pre><code class="language-scss">// styles.scss
+@layer reset, tokens, base, components;
+
+@layer tokens {
+  :root {
+    --color-primary: #3b82f6;
+  }
+}
+
+// card.component.scss
+@layer components {
+  .card {
+    background: var(--color-primary);
+  }
+}
+</code></pre>
+<h3 id="selectores-especiales-de-angular">Selectores especiales de Angular</h3>
+<pre><code class="language-scss">// :host - El elemento anfitrión del componente
+:host {
+  display: block;
+  padding: 1rem;
+}
+
+:host(.compact) {
+  padding: 0.5rem;
+}
+
+// :host-context - Cuando el componente está dentro de algo
+:host-context(.dark-theme) {
+  background: black;
+  color: white;
+}
+
+// ::ng-deep - Penetrar encapsulación (usar con precaución)
+:host ::ng-deep .external-library-class {
+  color: red;
+}
+</code></pre>
+<h3 id="patrones-recomendados-para-angular">Patrones recomendados para Angular</h3>
+<ol>
+<li><strong>Usa variables CSS para theming</strong>, no SCSS variables</li>
+<li><strong>Define tokens globales</strong>, estilos de componente locales</li>
+<li><strong>Evita <code>::ng-deep</code></strong> siempre que sea posible</li>
+<li><strong>Usa <code>@layer</code> para organizar prioridades</strong></li>
+<li><strong>Considera ViewEncapsulation.None para componentes de librería</strong></li>
+</ol>
+<h2 id="7-css-en-react-estrategias-de-maquetacion">7. CSS en React: Estrategias de maquetación</h2>
+<h3 id="css-tradicional-en-react">CSS tradicional en React</h3>
+<p>React no impone ninguna metodología específica para CSS. Puedes usar CSS tradicional exactamente igual que en HTML puro:</p>
+<pre><code class="language-jsx">// Card.jsx
+function Card({ title, highlighted }) {
+  return (
+    &lt;div className={`card ${highlighted ? 'card--highlighted' : ''}`}&gt;
+      &lt;h2 className=&quot;card__title&quot;&gt;{title}&lt;/h2&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre>
+<pre><code class="language-css">/* styles.css */
+.card {
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+}
+
+.card--highlighted {
+  border: 2px solid blue;
+  background: lightblue;
+}
+
+.card__title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+</code></pre>
+<p><strong>Ventajas:</strong>
+- CSS estándar, sin curva de aprendizaje
+- Compatible con todas las herramientas CSS
+- Fácil de migrar de HTML tradicional</p>
+<p><strong>Desventajas:</strong>
+- Estilos globales (riesgo de colisiones)
+- Necesitas disciplina con nomenclatura (BEM, SMACSS, etc.)</p>
+<h3 id="css-modules-scope-local-automatico">CSS Modules: Scope local automático</h3>
+<p>CSS Modules viene integrado en Create React App, Vite y la mayoría de bundlers modernos. <strong>No es un framework</strong>, es una transformación en tiempo de compilación que convierte tus clases en identificadores únicos:</p>
+<pre><code class="language-css">/* Card.module.css */
+.card {
+  padding: 1rem;
+  background: white;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.isHighlighted {
+  border: 2px solid blue;
+}
+</code></pre>
+<pre><code class="language-jsx">// Card.jsx
+import styles from './Card.module.css';
+
+function Card({ title, highlighted }) {
+  return (
+    &lt;div className={`${styles.card} ${highlighted ? styles.isHighlighted : ''}`}&gt;
+      &lt;h2 className={styles.title}&gt;{title}&lt;/h2&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre>
+<p>El navegador verá algo como:</p>
+<pre><code class="language-html">&lt;div class=&quot;Card_card__a8f3k Card_isHighlighted__x7j2p&quot;&gt;
+  &lt;h2 class=&quot;Card_title__k3m9n&quot;&gt;Mi título&lt;/h2&gt;
+&lt;/div&gt;
+</code></pre>
+<p><strong>Ventajas:</strong>
+- Scope local sin conflictos
+- CSS estándar (no aprende sintaxis nueva)
+- Sin overhead en runtime
+- Composición con <code>composes</code>:</p>
+<pre><code class="language-css">/* Button.module.css */
+.base {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.primary {
+  composes: base;
+  background: blue;
+  color: white;
+}
+
+.secondary {
+  composes: base;
+  background: gray;
+  color: black;
+}
+</code></pre>
+<h3 id="variables-css-react-valores-dinamicos">Variables CSS + React: Valores dinámicos</h3>
+<p>La mejor forma de pasar valores dinámicos desde React a CSS es usando custom properties:</p>
+<pre><code class="language-jsx">function Card({ title, spacing, accentColor }) {
+  return (
+    &lt;div 
+      className={styles.card}
+      style={{ 
+        '--card-spacing': `${spacing}rem`,
+        '--accent-color': accentColor
+      }}
+    &gt;
+      &lt;h2 className={styles.title}&gt;{title}&lt;/h2&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre>
+<pre><code class="language-css">/* Card.module.css */
+.card {
+  padding: var(--card-spacing, 1rem);
+  border-left: 4px solid var(--accent-color, blue);
+  /* Fallback values si no se pasan las variables */
+}
+
+.card:hover {
+  padding: calc(var(--card-spacing) * 1.2);
+}
+
+.title {
+  color: var(--accent-color);
+}
+</code></pre>
+<p><strong>Ventajas de este enfoque:</strong>
+- Estilos dinámicos sin mezclar CSS en JavaScript
+- Puedes usar pseudo-clases (<code>:hover</code>, <code>:focus</code>) y media queries
+- CSS puede hacer cálculos con las variables
+- Transiciones y animaciones funcionan perfectamente
+- El CSS mantiene toda la lógica de presentación</p>
+<h3 id="organizacion-de-estilos-en-proyectos-react">Organización de estilos en proyectos React</h3>
+<p><strong>Opción 1: Archivo CSS global + CSS Modules para componentes</strong></p>
+<pre><code>src/
+├── styles/
+│   ├── reset.css
+│   ├── variables.css
+│   └── global.css
+├── components/
+│   ├── Card/
+│   │   ├── Card.jsx
+│   │   └── Card.module.css
+│   └── Button/
+│       ├── Button.jsx
+│       └── Button.module.css
+└── App.jsx
+</code></pre>
+<pre><code class="language-jsx">// App.jsx
+import './styles/reset.css';
+import './styles/variables.css';
+import './styles/global.css';
+</code></pre>
+<p><strong>Opción 2: Todo con CSS Modules</strong></p>
+<pre><code>src/
+├── styles/
+│   ├── tokens.module.css  /* Variables compartidas */
+│   └── utils.module.css   /* Utilidades */
+└── components/
+    └── Card/
+        ├── Card.jsx
+        └── Card.module.css
+</code></pre>
+<pre><code class="language-css">/* tokens.module.css */
+:root {
+  --color-primary: #3b82f6;
+  --spacing-unit: 0.5rem;
+}
+</code></pre>
+<pre><code class="language-css">/* Card.module.css */
+@import '../../styles/tokens.module.css';
+
+.card {
+  padding: calc(var(--spacing-unit) * 2);
+  background: var(--color-primary);
+}
+</code></pre>
+<h3 id="patrones-recomendados-para-react">Patrones recomendados para React</h3>
+<ol>
+<li><strong>CSS Modules para componentes</strong>, CSS global para reset y tokens</li>
+<li><strong>Variables CSS para theming</strong>, no valores hardcodeados</li>
+<li><strong>Inline styles solo para valores calculados dinámicamente</strong></li>
+<li><strong>Nomenclatura consistente</strong> (BEM dentro de módulos si quieres)</li>
+<li><strong>Co-locación</strong>: CSS junto al componente que lo usa</li>
+</ol>
+<h3 id="errores-comunes-en-react">Errores comunes en React</h3>
+<p>❌ <strong>No aprovechar las variables CSS para valores dinámicos</strong></p>
+<pre><code class="language-jsx">// Evitar: lógica de estilos mezclada con JSX
+&lt;div className={props.isDark ? styles.darkText : styles.lightText}&gt;
+</code></pre>
+<p>✅ <strong>Usar variables CSS y data attributes</strong></p>
+<pre><code class="language-jsx">// Mejor: CSS maneja la lógica visual
+&lt;div 
+  className={styles.text}
+  data-theme={props.isDark ? 'dark' : 'light'}
+&gt;
+</code></pre>
+<pre><code class="language-css">.text {
+  color: var(--text-color);
+}
+
+.text[data-theme=&quot;dark&quot;] {
+  --text-color: #ffffff;
+}
+
+.text[data-theme=&quot;light&quot;] {
+  --text-color: #000000;
+}
+</code></pre>
+<p>❌ <strong>Estilos globales que colisionan</strong></p>
+<pre><code class="language-css">/* styles.css - riesgo de conflictos */
+.card { padding: 1rem; }
+.title { font-size: 1.5rem; }
+</code></pre>
+<p>✅ <strong>CSS Modules para scope local</strong></p>
+<pre><code class="language-css">/* Card.module.css - sin conflictos */
+.card { padding: 1rem; }
+.title { font-size: 1.5rem; }
+</code></pre>
+<h2 id="8-multimedia-para-web-optimizacion-y-rendimiento">8. Multimedia para web: Optimización y rendimiento</h2>
+<h3 id="formatos-de-imagen-modernos">Formatos de imagen modernos</h3>
+<p><strong>WebP</strong>: 25-35% más pequeño que JPEG con igual calidad</p>
+<pre><code class="language-html">&lt;picture&gt;
+  &lt;source srcset=&quot;imagen.webp&quot; type=&quot;image/webp&quot;&gt;
+  &lt;img src=&quot;imagen.jpg&quot; alt=&quot;Descripción&quot;&gt;
+&lt;/picture&gt;
+</code></pre>
+<p><strong>AVIF</strong>: 50% más pequeño que JPEG, pero soporte limitado</p>
+<pre><code class="language-html">&lt;picture&gt;
+  &lt;source srcset=&quot;imagen.avif&quot; type=&quot;image/avif&quot;&gt;
+  &lt;source srcset=&quot;imagen.webp&quot; type=&quot;image/webp&quot;&gt;
+  &lt;img src=&quot;imagen.jpg&quot; alt=&quot;Descripción&quot;&gt;
+&lt;/picture&gt;
+</code></pre>
+<p><strong>SVG</strong>: Para iconos, logos, ilustraciones</p>
+<pre><code class="language-html">&lt;svg class=&quot;icon&quot; aria-hidden=&quot;true&quot;&gt;
+  &lt;use href=&quot;/icons.svg#icon-name&quot;&gt;&lt;/use&gt;
+&lt;/svg&gt;
+</code></pre>
+<h3 id="lazy-loading-y-performance">Lazy loading y performance</h3>
+<pre><code class="language-html">&lt;!-- Imágenes que no están en el viewport inicial --&gt;
+&lt;img src=&quot;imagen.jpg&quot; loading=&quot;lazy&quot; alt=&quot;Descripción&quot;&gt;
+
+&lt;!-- Imágenes críticas (above the fold) --&gt;
+&lt;img src=&quot;hero.jpg&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; alt=&quot;Hero&quot;&gt;
+
+&lt;!-- Iframes --&gt;
+&lt;iframe src=&quot;video.html&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+</code></pre>
+<h3 id="responsive-images-srcset-y-sizes">Responsive images: Srcset y Sizes</h3>
+<pre><code class="language-html">&lt;img
+  srcset=&quot;
+    small.jpg 400w,
+    medium.jpg 800w,
+    large.jpg 1200w
+  &quot;
+  sizes=&quot;
+    (max-width: 600px) 100vw,
+    (max-width: 1200px) 50vw,
+    33vw
+  &quot;
+  src=&quot;medium.jpg&quot;
+  alt=&quot;Descripción&quot;
+&gt;
+</code></pre>
+<p><strong>Traducción</strong>:
+- En pantallas ≤600px: imagen ocupa 100% del viewport
+- En pantallas ≤1200px: imagen ocupa 50% del viewport
+- En pantallas &gt;1200px: imagen ocupa 33% del viewport</p>
+<p>El navegador elige automáticamente el tamaño más apropiado.</p>
+<h3 id="video-optimizado">Video optimizado</h3>
+<pre><code class="language-html">&lt;video 
+  controls 
+  preload=&quot;metadata&quot;
+  poster=&quot;thumbnail.jpg&quot;
+&gt;
+  &lt;source src=&quot;video.webm&quot; type=&quot;video/webm&quot;&gt;
+  &lt;source src=&quot;video.mp4&quot; type=&quot;video/mp4&quot;&gt;
+  &lt;track kind=&quot;subtitles&quot; src=&quot;subs.vtt&quot; srclang=&quot;es&quot; label=&quot;Español&quot;&gt;
+&lt;/video&gt;
+</code></pre>
+<p><strong>Reglas de oro:</strong>
+- <code>preload="none"</code> para videos no críticos
+- <code>preload="metadata"</code> para videos probablemente vistos
+- <code>poster</code> siempre
+- Incluye subtítulos (<code>&lt;track&gt;</code>) para accesibilidad</p>
+<h2 id="9-errores-comunes-y-como-evitarlos">9. Errores comunes y cómo evitarlos</h2>
+<h3 id="especificidad-fuera-de-control">❌ Especificidad fuera de control</h3>
+<pre><code class="language-css">/* Mal */
+#header .nav ul li a.active { }
+
+/* Bien */
+.nav-link.is-active { }
+</code></pre>
+<p><strong>Solución</strong>: Usa clases, evita IDs para estilos, aprovecha <code>@layer</code>.</p>
+<h3 id="unidades-absolutas-cuando-necesitas-fluidez">❌ Unidades absolutas cuando necesitas fluidez</h3>
+<pre><code class="language-css">/* Mal */
+.container {
+  width: 1200px;
+  padding: 20px;
+}
+
+/* Bien */
+.container {
+  max-width: 75rem; /* 1200px con font base 16px */
+  padding: clamp(1rem, 3%, 2rem);
+}
+</code></pre>
+<h3 id="no-pensar-en-componentes">❌ No pensar en componentes</h3>
+<pre><code class="language-css">/* Mal: Estilos demasiado específicos */
+.homepage .section .card .title { }
+
+/* Bien: Componente independiente */
+.card__title { }
+</code></pre>
+<p><strong>Mentalidad</strong>: Si lo estás copiando y pegando, debería ser un componente.</p>
+<h3 id="ignorar-cascada-y-herencia">❌ Ignorar cascada y herencia</h3>
+<pre><code class="language-css">/* Mal: Repitiendo font-family en cada elemento */
+.button { font-family: sans-serif; }
+.card { font-family: sans-serif; }
+.input { font-family: sans-serif; }
+
+/* Bien: Definir en la raíz */
+:root {
+  font-family: system-ui, sans-serif;
+}
+</code></pre>
+<h3 id="media-queries-que-miran-el-dispositivo-no-el-contenido">❌ Media queries que miran el dispositivo, no el contenido</h3>
+<pre><code class="language-css">/* Mal */
+@media (min-width: 768px) { /* &quot;tablet&quot; */ }
+
+/* Bien */
+@media (min-width: 600px) { /* &quot;cuando el contenido lo necesite&quot; */ }
+</code></pre>
+<p><strong>Regla</strong>: Los breakpoints deben estar determinados por tu diseño, no por dispositivos específicos.</p>
+<hr />
+<h2 id="conclusion">Conclusión</h2>
+<p>La maquetación moderna no se trata de memorizar propiedades CSS, sino de:</p>
+<ol>
+<li><strong>Entender la plataforma web</strong>: HTML semántico, cascada, herencia</li>
+<li><strong>Pensar en sistemas</strong>: Tokens, componentes, arquitectura escalable</li>
+<li><strong>Usar las herramientas modernas</strong>: Grid, Flexbox, Container Queries, Layers</li>
+<li><strong>Optimizar para usuarios reales</strong>: Performance, accesibilidad, responsive</li>
+</ol>
+<p>El código que escribes hoy será leído (y maldecido o bendecido) por alguien mañana, posiblemente tú mismo. Escribe CSS como si fueras a volver a él en 6 meses sin recordar nada. Tu yo futuro te lo agradecerá.</p>
+<p>Ahora ve y construye interfaces que no solo se vean bien, sino que <strong>funcionen bien</strong>, <strong>se mantengan bien</strong>, y <strong>escalen bien</strong>.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Contenido generado por el equipo educativo del IES Rafael Alberti
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "header.autohide"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
